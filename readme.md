@@ -1,4 +1,4 @@
-Being Parents (Baby Care)     <a href="https://play.google.com/store/apps/details?id=com.maakservicess.beingparents.app_monitor">Play store link</a>
+Being Parents (Baby Care) <a href="https://play.google.com/store/apps/details?id=com.maakservicess.beingparents.app_monitor"><img src="en_badge_web_generic.png" width="200"></a>
 
 General guidelines for parents of newborn to 6 years old.
 Monitor vital parameters through this app.
