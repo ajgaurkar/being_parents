@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp">
+
+        <View
+            android:id="@+id/view18"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/formulaFeedMainTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView236"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textView242"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/formulaFeedMainTextView"
+            android:padding="5dp"
+            android:text="Stage 1 : formula feeding for first 6 months \n(as company instruction)"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView242">
+
+
+            <!--<TableRow>-->
+
+            <!--<TextView-->
+            <!--android:padding="3dip"-->
+            <!--android:text="Save As..." />-->
+
+            <!--<TextView-->
+            <!--android:padding="3dip"-->
+            <!--android:text="Ctrl-Shift-S" />-->
+
+            <!--<TextView-->
+            <!--android:padding="3dip"-->
+            <!--android:text="Save As..." />-->
+
+            <!--<TextView-->
+            <!--android:padding="3dip"-->
+            <!--android:text="Ctrl-Shift-S" />-->
+            <!--</TableRow>-->
+
+            <!--<View-->
+            <!--android:layout_height="2dip"-->
+            <!--android:background="#FF909090" />-->
+
+            <!--<TableRow>-->
+
+            <!--<TextView-->
+            <!--android:padding="3dip"-->
+            <!--android:text="X" />-->
+
+            <!--<TextView-->
+            <!--android:padding="3dip"-->
+            <!--android:text="Import..." />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+            <!--<TextView-->
+            <!--android:padding="3dip"-->
+            <!--android:text="X" />-->
+
+            <!--<TextView-->
+            <!--android:padding="3dip"-->
+            <!--android:text="Export..." />-->
+
+            <!--<TextView-->
+            <!--android:gravity="right"-->
+            <!--android:padding="3dip"-->
+            <!--android:text="Ctrl-E" />-->
+            <!--</TableRow>-->
+
+            <!--<View-->
+            <!--android:layout_height="2dip"-->
+            <!--android:background="#FF909090" />-->
+
+            <!-- Row 1 with single column -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:weightSum="4">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:padding="18dip"
+                    android:text="Row 1"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="#b0b0b0"
+                    android:padding="18dip"
+                    android:text="Row 1"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:padding="18dip"
+                    android:text="Row 1"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+
+
+            </TableRow>
+
+            <!-- Row 2 with 3 columns -->
+
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#dcdcdc"
+                    android:gravity="center"
+                    android:padding="20dip"
+                    android:text="Row 2 column 1"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#d3d3d3"
+                    android:gravity="center"
+                    android:padding="20dip"
+                    android:text="Row 2 column 2"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#cac9c9"
+                    android:gravity="center"
+                    android:padding="20dip"
+                    android:text="Row 2 column 3"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <!-- Row 3 with 2 columns -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Row 3 column 1"
+                    android:textColor="#000000" />
+
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Row 3 column 2"
+                    android:textColor="#000000" />
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView243"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tableLayout"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Stage 2 : after 6 months till 1 year of age."
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView244"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView243"
+            android:layout_centerHorizontal="true"
+
+            android:padding="5dp"
+            android:text="After 6 months introduce supplementary feeding along with formula feeding." />
+
+        <TextView
+            android:id="@+id/textView245"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView244"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Stage 3 : after 1 year till 18 months of age."
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView245"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/formula_feed" />
+
+
+    </RelativeLayout>
+</ScrollView>

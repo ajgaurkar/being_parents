@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/rootview"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="#000" />
+
+            <TextView
+                android:id="@+id/textView273"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:text="Before starting massage learn the steps from your pediatrician. Be very gentle. If any rash occur, stop the massage and consult your doctor. " />
+
+            <TextView
+                android:id="@+id/textView301"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView273"
+                android:layout_marginTop="12dp"
+                android:textColor="#4b4b4b"
+                android:layout_margin="5dp"
+                android:textSize="16sp"
+                android:layout_toLeftOf="@+id/rootview"
+                android:layout_toStartOf="@+id/rootview"
+                android:text="Move your hand upper chest to lower chest" />
+
+            <TextView
+                android:id="@+id/textView314"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView301"
+                android:layout_alignBottom="@+id/textView301"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@+id/rootview"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@+id/rootview"
+                android:text="Move from outer side of chest to inner side." />
+
+            <ImageView
+                android:id="@+id/imageView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView301"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/diaper_imag_1" />
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                android:id="@+id/imageView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView301"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/massage_im1"
+                app:siBorderColor="#000"
+                app:siBorderWidth="3dp"
+                app:siRadius="2dp"
+                app:siSquare="false" />
+
+
+            <TextView
+                android:id="@+id/textView323"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView58"
+                android:layout_marginTop="9dp"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:text="Hold your hands together around baby’s arm at the shoulder. Then move your hands in opposite directions, back and forth, from baby’s shoulder to hand, gently squeezing as you do so." />
+
+            <TextView
+                android:id="@+id/textView332"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView323"
+                android:layout_marginTop="12dp"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:text="Reverse the process so you move from hand to shoulder" />
+
+            <ImageView
+                android:id="@+id/imageView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView332"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/massage_im3" />
+
+            <TextView
+                android:id="@+id/textView341"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView59"
+                android:layout_marginTop="8dp"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:text="Using the outside of each hand, make gentle paddling strokes on baby’s tummy, one hand following the other" />
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                android:id="@+id/imageView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView59"
+                android:layout_alignStart="@+id/imageView59"
+                android:layout_alignTop="@+id/imageView59"
+                android:src="@drawable/massage_im3"
+                app:siBorderColor="#000"
+                app:siBorderWidth="3dp"
+                app:siRadius="2dp"/>
+
+            <TextView
+                android:id="@+id/textView342"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView341"
+                android:layout_marginTop="124dp"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:text="Encircle your hands one on top of the other around baby’s leg, turning in opposite directions and squeezing slightly" />
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                android:id="@+id/imageView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView59"
+                android:layout_alignStart="@+id/imageView59"
+                android:layout_below="@+id/textView341"
+                android:src="@drawable/massage_im4"
+                app:siBorderColor="#000"
+                app:siBorderWidth="3dp"
+                app:siRadius="2dp"
+                app:siSquare="false"/>
+
+
+            <TextView
+                android:id="@+id/textView336"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView343"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:text="Reverse direction using the same stroke from hip to ankle" />
+
+            <TextView
+                android:id="@+id/textView343"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView342"
+                android:layout_marginTop="19dp"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:text="Move first from ankle to hip as if you were milking" />
+
+            <ImageView
+                android:id="@+id/imageView61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView336"
+                android:layout_marginTop="31dp"
+                android:layout_toEndOf="@+id/imageView58"
+                android:layout_toRightOf="@+id/imageView58"
+                android:src="@drawable/massage_im5" />
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                android:id="@+id/imageView69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView336"
+                android:layout_marginTop="31dp"
+                android:layout_toEndOf="@+id/imageView58"
+                android:layout_toRightOf="@+id/imageView58"
+                android:src="@drawable/massage_im5"
+                app:siBorderColor="#000"
+                app:siBorderWidth="3dp"
+                app:siRadius="2dp"
+                app:siSquare="false"/>
+
+            <TextView
+                android:id="@+id/textView351"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView61"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:text="Start with your hands together at the top of baby’s back, at right angles to the spine" />
+
+            <TextView
+                android:id="@+id/textView352"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView351"
+                android:layout_marginTop="19dp"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:text="Move your hands back and forth, in opposite directions, going down the back to the buttocks, then up to the shoulders, and back down once again." />
+
+            <TextView
+                android:id="@+id/textView361"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/imageView68"
+                android:text="Move your hands back and forth, in opposite directions, going down the back to the buttocks, then up to the shoulders, and back down once again." />
+
+            <TextView
+                android:id="@+id/textView363"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/rootview"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/rootview"
+                android:layout_below="@+id/textView361"
+                android:layout_marginTop="21dp"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:text="Massage the sole from hill to toes as in picture ." />
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                android:id="@+id/imageView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView61"
+                android:layout_alignStart="@+id/imageView61"
+                android:layout_below="@+id/textView352"
+                android:src="@drawable/massage_im111"
+                app:siBorderColor="#000"
+                app:siBorderWidth="3dp"
+                app:siRadius="2dp"/>
+
+            <TextView
+                android:id="@+id/textView362"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView363"
+                android:layout_alignBottom="@+id/textView363"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@+id/rootview"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_toRightOf="@+id/rootview"
+                android:text="Hold baby’s legs and make cycling movements  ." />
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                android:id="@+id/imageView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView363"
+                android:layout_marginTop="17dp"
+                android:layout_toLeftOf="@+id/imageView63"
+                android:layout_toStartOf="@+id/imageView63"
+                android:src="@drawable/massage_im71"
+                app:siBorderColor="#000"
+                app:siBorderWidth="3dp"
+                app:siRadius="2dp"
+                app:siSquare="false"/>
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                android:id="@+id/imageView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView72"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_toEndOf="@+id/rootview"
+                android:layout_toRightOf="@+id/rootview"
+                android:src="@drawable/massage_im8"
+                app:siBorderColor="#000"
+                app:siBorderWidth="3dp"
+                app:siRadius="2dp"
+                app:siSquare="false"
+                android:layout_above="@+id/textView367" />
+
+            <TextView
+                android:id="@+id/textView367"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView72"
+                android:layout_marginTop="12dp"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:text="Gently massage on forehead, as shown in picture. With your thumbs, make smiles on the upper and lower lips." />
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                android:id="@+id/imageView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/massage_im21"
+                app:siBorderColor="#000"
+                app:siBorderWidth="3dp"
+                app:siRadius="2dp"
+                app:siSquare="false"
+                android:layout_above="@+id/textView323"
+                android:layout_alignLeft="@+id/imageView71"
+                android:layout_alignStart="@+id/imageView71"
+                android:layout_alignTop="@+id/imageView60" />
+
+            <TextView
+                android:id="@+id/textView368"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView64"
+                android:layout_marginTop="5dp"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:text="Very gently move legs up on abdomen keeping knees straight, as shown in picture."
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_alignRight="@+id/textView363"
+                android:layout_alignEnd="@+id/textView363" />
+
+            <TextView
+                android:id="@+id/textView366"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView368"
+                android:layout_alignBottom="@+id/textView368"
+                android:layout_toEndOf="@+id/rootview"
+                android:layout_toRightOf="@+id/rootview"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:text="Very gently move the arms across the chest in opposite direction as shown in picture." />
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                android:id="@+id/imageView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView72"
+                android:layout_alignStart="@+id/imageView72"
+                android:layout_below="@+id/textView368"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="11dp"
+                app:siBorderColor="#000"
+                app:siBorderWidth="3dp"
+                app:siRadius="2dp"
+                android:src="@drawable/massage_im9" />
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                android:id="@+id/imageView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView75"
+                android:layout_toEndOf="@+id/imageView68"
+                android:layout_toRightOf="@+id/imageView68"
+                android:src="@drawable/massage_im11"
+                app:siBorderColor="#000"
+                app:siBorderWidth="3dp"
+                app:siRadius="2dp"/>
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/massage_im7"
+                android:layout_marginTop="15dp"
+                android:id="@+id/imageView64"
+                app:siBorderColor="#000"
+                app:siBorderWidth="3dp"
+                app:siRadius="2dp"
+                app:siSquare="false"
+                android:layout_below="@+id/textView367"
+                android:layout_alignRight="@+id/imageView59"
+                android:layout_alignEnd="@+id/imageView59" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/imageView72"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/imageView72"
+                android:layout_below="@+id/imageView74" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

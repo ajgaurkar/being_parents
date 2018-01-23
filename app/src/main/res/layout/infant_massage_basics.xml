@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="45dp"
+        android:paddingEnd="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/guidance_infnat_massage_basic_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="2dp"
+            android:text="The massage can be given by trained medical professional or by mother. It has been shown that mothers are as effective as trained professional in delivering the massage."
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/guidance_infnat_massage_basic_textView"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView275"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/guidance_infnat_massage_basic_textView"
+            android:layout_toRightOf="@+id/textView42"
+            android:padding="2dp"
+            android:text="A room with soft light, warm temperature, and low noise levels is ideal. "
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView275"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView276"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView275"
+            android:layout_toRightOf="@+id/textView42"
+            android:padding="2dp"
+            android:text="Massage should be given between the feeds and ideally 45 min to 1 hour after a feed to avoid regurgitation or vomiting of the feed."
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView279"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView276"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView278"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView276"
+            android:layout_toEndOf="@+id/textView43"
+            android:layout_toRightOf="@+id/textView43"
+            android:padding="2dp"
+            android:text="It should involve the entire body starting from head, neck, trunk and extremities"
+
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView277"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView278"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView284"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView278"
+            android:layout_toRightOf="@+id/textView277"
+            android:padding="2dp"
+            android:text="A firm stroke with flat of fingers is used during massage therapy. "
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView285"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView284"
+            android:layout_alignRight="@+id/textView284"
+            android:layout_below="@+id/textView284"
+            android:layout_toEndOf="@+id/textView277"
+            android:layout_toRightOf="@+id/textView277"
+            android:padding="2dp"
+            android:text="Moderate pressure is shown to be better than light pressure massage in terms of weight gain"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView281"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView277"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView282"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView285"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView286"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView285"
+            android:layout_toEndOf="@+id/textView282"
+            android:layout_toRightOf="@+id/textView282"
+            android:padding="2dp"
+            android:text="Massage of newborn may be done using a lubricant (oil) to avoid friction between the surfaces. The choice of the oil depends upon the availability, cost and safety. "
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView280"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView286"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView289"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView286"
+            android:layout_toEndOf="@+id/textView280"
+            android:layout_toRightOf="@+id/textView280"
+            android:padding="2dp"
+            android:text="Mustard oil, olive oil, Sunflower oil, coconut oil, and sesame oil are commonly used for massage."
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView292"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView289"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/textView290"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView289"
+            android:layout_toEndOf="@+id/textView292"
+            android:layout_toRightOf="@+id/textView292"
+            android:padding="2dp"
+            android:text="There are many babies who develop allergic rash with use of oil. Massage needs to be avoided in medically unstable newborns."
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/textView290"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/textView290"
+            android:layout_below="@+id/textView290" />
+
+
+    </RelativeLayout>
+</ScrollView>

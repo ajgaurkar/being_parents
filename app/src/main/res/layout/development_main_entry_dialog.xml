@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/devTaskDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="Pat a cake stands for nbf fcjhgb hgg jkhgjhj hjh gjh jgh jhgjrh hg ghdshdg h h  " />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/devTaskDescriptionTextView"
+            android:layout_alignStart="@+id/devTaskDescriptionTextView"
+            android:layout_below="@+id/devTaskDescriptionTextView"
+            android:text="Expected : " />
+
+        <TextView
+            android:id="@+id/devExpectedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignEnd="@+id/devTaskDescriptionTextView"
+            android:layout_alignRight="@+id/devTaskDescriptionTextView"
+            android:layout_below="@+id/devTaskDescriptionTextView"
+            android:layout_toRightOf="@+id/textView34"
+            android:text="12 Jan 16 To 20 Mar 16 "
+            android:layout_alignBottom="@+id/textView34" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Completed on : "
+            android:layout_below="@+id/textView34"
+            android:layout_alignLeft="@+id/textView34"
+            android:layout_alignStart="@+id/textView34" />
+
+        <EditText
+            android:id="@+id/devDateAddEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:editable="false"
+            android:focusable="false"
+            android:hint="Add date"
+            android:layout_toRightOf="@+id/textView35"
+            android:layout_alignRight="@+id/devTaskDescriptionTextView"
+            android:layout_alignEnd="@+id/devTaskDescriptionTextView"
+            android:layout_alignTop="@+id/textView35" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

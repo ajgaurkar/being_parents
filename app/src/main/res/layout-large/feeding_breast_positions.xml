@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp">
+
+        <View
+            android:id="@+id/view18"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView236"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView161"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView161"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Breastfeeding a baby"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView161"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView236"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:text="Baby should be fed “on cues”- The early feeding cues includes; sucking movements and sucking sounds, hand to mouth movements, rapid eye movements, soft cooing or sighing sounds, lip smacking, restlessness etc. Crying is a late cue and may interfere with successful feeding. "
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView161"
+            android:layout_toLeftOf="@+id/view18"
+            android:layout_toStartOf="@+id/view18"
+            android:src="@drawable/breast_feed_correct_position" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignEnd="@+id/textView161"
+            android:layout_alignRight="@+id/textView161"
+            android:layout_below="@+id/textView161"
+            android:layout_toRightOf="@+id/view18"
+            android:src="@drawable/breast_feed_wrong_position" />
+
+        <TextView
+            android:id="@+id/textView225"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView27"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/imageView27"
+            android:layout_below="@+id/imageView27"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="Correct position"
+            android:textColor="@color/gradGreen" />
+
+        <TextView
+            android:id="@+id/textView229"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView28"
+            android:layout_alignRight="@+id/imageView28"
+            android:layout_alignTop="@+id/textView225"
+            android:layout_toRightOf="@+id/textView225"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="Incorrect position"
+            android:textColor="@color/WarningText" />
+
+        <TextView
+            android:id="@+id/textView230"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView231"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView231"
+            android:layout_below="@+id/textView225"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Position of baby in relation to mother"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView230"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/breast_feed_relative_position" />
+
+        <TextView
+            android:id="@+id/textView231"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView232"
+            android:layout_alignLeft="@+id/textView232"
+            android:layout_alignRight="@+id/textView232"
+            android:layout_alignStart="@+id/textView232"
+            android:layout_alignTop="@+id/imageView29"
+            android:padding="5dp"
+            android:text="Baby&apos;s whole body must face the mother and close to her"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView232"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView231"
+            android:layout_toEndOf="@+id/imageView29"
+            android:layout_toRightOf="@+id/imageView29"
+            android:padding="5dp"
+            android:text="The baby&apos;s head and neck must be supported in a straight line  with her body  and face the breast"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView233"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView232"
+            android:layout_alignLeft="@+id/textView232"
+            android:layout_alignRight="@+id/textView232"
+            android:layout_alignStart="@+id/textView232"
+            android:layout_below="@+id/textView232"
+            android:padding="5dp"
+            android:text="Baby&apos;s abdomen should touch mother&apos;s abdomen"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView233"
+            android:layout_alignLeft="@+id/textView232"
+            android:layout_alignRight="@+id/textView233"
+            android:layout_alignStart="@+id/textView232"
+            android:layout_below="@+id/textView233"
+            android:padding="5dp"
+            android:text="Mother&apos;s back and feet supported, do not lean on baby"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView235"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView234"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView234"
+            android:layout_below="@+id/imageView29"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Recommended feeding position"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView235"
+            android:layout_toLeftOf="@+id/textView229"
+            android:layout_toStartOf="@+id/textView229"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:src="@drawable/breast_feed_cradle_hold" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignEnd="@+id/textView232"
+            android:layout_alignLeft="@+id/textView229"
+            android:layout_alignRight="@+id/textView232"
+            android:layout_alignStart="@+id/textView229"
+            android:layout_below="@+id/textView235"
+            android:adjustViewBounds="true"
+            android:padding="15dp"
+            android:src="@drawable/breast_feed_football_hold" />
+
+        <TextView
+            android:id="@+id/textView237"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView30"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/imageView30"
+            android:layout_below="@+id/imageView30"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Cradle hold"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView238"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView237"
+            android:layout_alignEnd="@+id/imageView31"
+            android:layout_alignRight="@+id/imageView31"
+            android:layout_below="@+id/imageView31"
+            android:layout_toEndOf="@+id/view18"
+            android:layout_toRightOf="@+id/view18"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Football hold"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView237"
+            android:layout_toLeftOf="@+id/textView238"
+            android:layout_toStartOf="@+id/textView238"
+            android:padding="10dp"
+            android:src="@drawable/breast_feed_cross_cradle_hold" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignEnd="@+id/imageView31"
+            android:layout_alignRight="@+id/imageView31"
+            android:layout_alignTop="@+id/imageView32"
+            android:layout_toRightOf="@+id/imageView32"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:src="@drawable/breast_feed_biological_hold" />
+
+        <TextView
+            android:id="@+id/textView239"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView32"
+            android:layout_toLeftOf="@+id/imageView33"
+            android:layout_toStartOf="@+id/imageView33"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Cross cradle"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView240"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView33"
+            android:layout_alignRight="@+id/imageView33"
+            android:layout_alignTop="@+id/textView239"
+            android:layout_toRightOf="@+id/imageView32"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Biological hold"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignEnd="@+id/textView240"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView240"
+            android:layout_below="@+id/textView239"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:src="@drawable/breast_feed_lying_hold" />
+
+        <TextView
+            android:id="@+id/textView241"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView34"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/imageView34"
+            android:layout_below="@+id/imageView34"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Lying hold"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/textView241"
+            android:layout_alignLeft="@+id/imageView29"
+            android:layout_alignStart="@+id/imageView29" />
+    </RelativeLayout>
+</ScrollView>

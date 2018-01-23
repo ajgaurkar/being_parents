@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="50dp"
+        android:paddingEnd="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp">
+
+        <View
+            android:id="@+id/view12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#000" />
+
+        <TextView
+            android:id="@+id/position_TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:text="Snuggle Hold :"
+            android:textColor="#4b4b4b"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/position_TextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/position_TextView1"
+            android:padding="5dp"
+            android:text="New text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/position_TextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/position_TextView2"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/imageView40"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignEnd="@+id/view12"
+            android:layout_alignRight="@+id/view12"
+            android:layout_below="@+id/position_TextView3"
+            android:layout_toStartOf="@+id/position_TextView1"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:src="@drawable/snugglehold_p1"
+            app:siBorderColor="#000"
+            app:siBorderWidth="3dp"
+            app:siRadius="2dp"
+            app:siSquare="true"
+            android:layout_toLeftOf="@+id/position_TextView1" />
+
+        <TextView
+            android:id="@+id/position_TextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/position_TextView3"
+            android:layout_toRightOf="@+id/view12"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/position_TextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/position_TextView4"
+            android:layout_alignRight="@+id/position_TextView4"
+            android:layout_below="@+id/position_TextView4"
+            android:layout_toEndOf="@+id/view12"
+            android:layout_toRightOf="@+id/view12"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/position_TextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/position_TextView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/position_TextView5"
+            android:layout_below="@+id/imageView40"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#5785ba"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/position_TextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/position_TextView6"
+            android:padding="5dp"
+            android:text="Face-to-Face Hold :"
+            android:textColor="#4b4b4b"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/position_TextView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/position_TextView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/position_TextView6"
+            android:layout_below="@+id/position_TextView7"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/imageView41"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignEnd="@+id/view12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/view12"
+            android:layout_below="@+id/position_TextView8"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:src="@drawable/facetofacehold"
+            app:siBorderColor="#000"
+            app:siBorderWidth="3dp"
+            app:siRadius="2dp"
+            app:siSquare="true" />
+
+        <TextView
+            android:id="@+id/position_TextView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/position_TextView8"
+            android:layout_alignRight="@+id/position_TextView8"
+            android:layout_alignTop="@+id/imageView41"
+            android:layout_marginTop="71dp"
+            android:layout_toRightOf="@+id/imageView41"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#5785ba"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/position_TextView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView41"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="Cardle Hold :"
+            android:textColor="#4b4b4b"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/position_TextView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/position_TextView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/position_TextView9"
+            android:layout_below="@+id/position_TextView10"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/imageView42"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignEnd="@+id/view12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/view12"
+            android:layout_below="@+id/position_TextView11"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:src="@drawable/cardlehold"
+            app:siBorderColor="#000"
+            app:siBorderWidth="3dp"
+            app:siRadius="2dp"
+            app:siSquare="true" />
+
+        <TextView
+            android:id="@+id/position_TextView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/position_TextView11"
+            android:layout_alignRight="@+id/position_TextView11"
+            android:layout_alignTop="@+id/imageView42"
+            android:layout_toRightOf="@+id/view12"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/position_TextView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/position_TextView11"
+            android:layout_alignRight="@+id/position_TextView11"
+            android:layout_below="@+id/position_TextView12"
+            android:layout_toRightOf="@+id/imageView42"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/position_TextView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/position_TextView11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/position_TextView11"
+            android:layout_below="@+id/imageView42"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#5785ba"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/position_TextView6"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignEnd="@+id/position_TextView5"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignRight="@+id/position_TextView5"-->
+        <!--android:layout_below="@+id/position_TextView5"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="New Text"-->
+        <!--android:textColor="#5785ba"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="bold|italic" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/position_TextView7"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/position_TextView6"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="Face-to-Face Hold :"-->
+        <!--android:textColor="#5785ba"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="bold|italic" />-->
+
+        <!--<com.github.siyamed.shapeimageview.RoundedImageView-->
+        <!--android:id="@+id/imageView41"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignEnd="@+id/view12"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignRight="@+id/view12"-->
+        <!--android:layout_below="@+id/position_TextView7"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:padding="5dp"-->
+        <!--android:src="@drawable/facetofacehold"-->
+        <!--app:siBorderColor="#000"-->
+        <!--app:siBorderWidth="3dp"-->
+        <!--app:siRadius="2dp"-->
+        <!--app:siSquare="true" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/position_TextView8"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignBottom="@+id/imageView40"-->
+        <!--android:layout_alignEnd="@+id/position_TextView6"-->
+        <!--android:layout_alignRight="@+id/position_TextView6"-->
+        <!--android:layout_toRightOf="@+id/imageView40"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="New Text"-->
+        <!--android:textColor="#4b4b4b"-->
+        <!--android:textSize="16sp" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/position_TextView9"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignEnd="@+id/position_TextView8"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignRight="@+id/position_TextView8"-->
+        <!--android:layout_below="@+id/imageView40"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="New Text"-->
+        <!--android:textColor="#4b4b4b"-->
+        <!--android:textSize="16sp" />-->
+
+
+    </RelativeLayout>
+</ScrollView>

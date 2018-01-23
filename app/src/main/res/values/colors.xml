@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2880B8</color>
+    <color name="colorPrimaryShade">#0028b842</color>
+    <color name="colorPrimaryDark">#1f628c</color>
+    <color name="colorOffWhite">#f7f8f9</color>
+    <color name="colorAccent">#2880B8</color>
+    <color name="WarningText">#cc3638</color>
+    <color name="DarkRed">#e60003</color>
+    <color name="normalRed">#ff4d4f</color>
+    <color name="DarkBlue">#000cef</color>
+    <color name="normalBlue">#636bff</color>
+    <color name="gradBlue">#2880B8</color>
+    <color name="gradGreen">#24999A</color>
+    <color name="textDark">#434343</color>
+</resources>

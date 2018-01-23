@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/developmentMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/dev_main_AdView"
+        android:orientation="vertical"
+        android:weightSum="20">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="5"
+            android:background="@drawable/app_blue_panel_bg">
+
+            <RelativeLayout
+                android:id="@+id/development_main_completed_tab"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@+id/view8"
+                android:layout_toRightOf="@+id/view8"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:text="Completed"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/textView16"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/checked_completed_48" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="1px"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/growth_horizontal_divider_white_bg" />
+
+            <RelativeLayout
+                android:id="@+id/development_main_tasks_tab"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/view8"
+                android:layout_toStartOf="@+id/view8"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:text="Tasks"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/textView17"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/todo_list_48" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/development_main_completed_tab"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true">
+
+                <com.github.lzyzsd.circleprogress.ArcProgress
+                    android:id="@+id/development_main_arc_progress_bar"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="-15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginStart="40dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    custom:arc_finished_color="#fff"
+                    custom:arc_max="17"
+                    custom:arc_stroke_width="12dp"
+                    custom:arc_text_color="#00ffffff"
+                    custom:arc_unfinished_color="#7e24999a" />
+
+                <TextView
+                    android:id="@+id/TrivendrumDevelopmentScreeningTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/development_main_arc_progress_bar"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/development_main_arc_progress_bar"
+                    android:maxLines="2"
+                    android:minLines="3"
+                    android:padding="5dp"
+                    android:text="Trivendrum development screening "
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/development_main_arc_progress_bar"
+                    android:layout_alignLeft="@+id/development_main_arc_progress_bar"
+                    android:layout_alignRight="@+id/development_main_arc_progress_bar"
+                    android:layout_alignStart="@+id/development_main_arc_progress_bar"
+                    android:layout_below="@+id/development_main_arc_progress_bar"
+                    android:gravity="center_horizontal|top"
+                    android:text="Tasks               completed"
+                    android:textColor="#fff" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@+id/development_main_arc_progress_bar"
+                    android:layout_alignLeft="@+id/development_main_arc_progress_bar"
+                    android:layout_alignStart="@+id/development_main_arc_progress_bar"
+                    android:layout_alignTop="@+id/development_main_arc_progress_bar"
+                    android:layout_toLeftOf="@+id/TrivendrumDevelopmentScreeningTextView"
+                    android:layout_toStartOf="@+id/TrivendrumDevelopmentScreeningTextView">
+
+                    <TextView
+                        android:id="@+id/devTasksCompletedTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical|end"
+                        android:text="12"
+                        android:textColor="#fff"
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/totalDevTasksTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/devTasksCompletedTextView"
+                        android:layout_marginBottom="5dp"
+                        android:layout_toEndOf="@+id/devTasksCompletedTextView"
+                        android:layout_toRightOf="@+id/devTasksCompletedTextView"
+                        android:text="/17"
+                        android:textColor="#fff"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/develpmentMilestonesButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/TrivendrumDevelopmentScreeningTextView"
+                    android:layout_alignRight="@+id/TrivendrumDevelopmentScreeningTextView"
+                    android:layout_below="@+id/TrivendrumDevelopmentScreeningTextView"
+                    android:background="@drawable/development_detail_side_btn_right_bg"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="25dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="25dp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="5dp"
+                    android:text="Detail"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/dev_share_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="20dp"
+                    android:src="@android:drawable/ic_menu_share" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="15"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true">
+
+            <ListView
+                android:id="@+id/developemt_mainListView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scrollbars="none" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/gotoTrivendrumChartFAB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/bar_chart_24" />
+
+            <TextView
+                android:id="@+id/congratulationsBodyTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textColor="#2880B8"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/congratulationsTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/congratulationsBodyTextView"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"
+                android:textColor="#2880B8"
+                android:textSize="22sp"
+                android:textStyle="italic|bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/dev_main_AdView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/appbabybanner" />
+
+</RelativeLayout>

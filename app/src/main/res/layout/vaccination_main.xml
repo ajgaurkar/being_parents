@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@drawable/app_blue_panel_bg">
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/vaccineMainProgress"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:background="@android:color/transparent"
+            custom:arc_bottom_text_size="20sp"
+            custom:arc_finished_color="#fff"
+            custom:arc_max="37"
+            custom:arc_stroke_width="10dp"
+            custom:arc_text_color="#00ffffff"
+            custom:arc_text_size="22sp"
+            custom:arc_unfinished_color="#7e24999a" />
+
+        <ImageView
+            android:id="@+id/shareVaccineImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView15"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/textView15"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@android:drawable/ic_menu_share" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/shareVaccineImageView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/vaccineMainProgress"
+            android:layout_toRightOf="@+id/vaccineMainProgress"
+            android:padding="5dp"
+            android:text="Upcoming Vaccines"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/upVaccine1TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView15"
+            android:layout_alignStart="@+id/textView15"
+            android:layout_below="@+id/textView15"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#fff" />
+
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/vaccineMainProgress"
+            android:layout_alignLeft="@+id/vaccineMainProgress"
+            android:layout_alignRight="@+id/vaccineMainProgress"
+            android:layout_alignStart="@+id/vaccineMainProgress"
+            android:layout_below="@+id/vaccineMainProgress"
+            android:gravity="center_horizontal|top"
+            android:text="Complete"
+            android:textColor="#fff" />
+
+
+        <RelativeLayout
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/vaccineMainProgress"
+            android:layout_alignEnd="@+id/vaccineMainProgress"
+            android:layout_alignLeft="@+id/vaccineMainProgress"
+            android:layout_alignRight="@+id/vaccineMainProgress"
+            android:layout_alignStart="@+id/vaccineMainProgress"
+            android:layout_alignTop="@+id/vaccineMainProgress">
+
+            <TextView
+                android:id="@+id/totalVaccinesCompletedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="28"
+                android:textColor="#fff"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/totalVaccinesCompletedTextView"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@+id/totalVaccinesCompletedTextView"
+                android:layout_toRightOf="@+id/totalVaccinesCompletedTextView"
+                android:text="/37"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/upcomingVaccinesListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView15"
+            android:layout_alignStart="@+id/textView15"
+            android:layout_below="@+id/textView15"
+            android:divider="#00ffffff"
+            android:dividerHeight="0dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14">
+
+        <ExpandableListView
+            android:id="@+id/vaccineExpandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/vaccin_main_AdView"
+            android:divider="#00000000"
+            android:dividerHeight="0dp" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/vaccin_main_AdView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/appbabybanner">
+
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+</LinearLayout>

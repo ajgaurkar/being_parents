@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<item android:drawable="@drawable/growth_horizontal_divider_white_bg" android:state_pressed="true" />-->
+    <!--&lt;!&ndash; pressed &ndash;&gt;-->
+    <!--<item android:drawable="@drawable/tickblue50" />-->
+    <!--&lt;!&ndash; default &ndash;&gt;-->
+<!--</selector>-->
+
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:state_pressed="true" android:drawable="@drawable/growth_horizontal_divider_white_bg" />
+<item android:state_focused="true" android:drawable="@drawable/about_32" />
+<item android:state_selected="true" android:drawable="@drawable/add_24" />
+
+
+<item android:drawable="@drawable/add_img_dark_50" />
+
+</selector>

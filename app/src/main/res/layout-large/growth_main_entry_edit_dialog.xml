@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/editEntryRanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editEntry"
+        android:layout_alignEnd="@+id/view11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/view11"
+        android:layout_below="@+id/view11"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="dsdsds"
+        android:padding="5dp"
+        android:textColor="#000" />
+
+
+    <Spinner
+        android:id="@+id/editEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toEndOf="@+id/view11"
+        android:layout_toRightOf="@+id/view11"
+        android:gravity="center" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView287"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Infant massage by mothers "
+        android:textColor="#4b4b4b"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView288"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView287"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/dot_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView293"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView288"
+        android:layout_alignBottom="@+id/textView288"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textView288"
+        android:layout_toRightOf="@+id/textView288"
+        android:text="A massage should last only about 15 minutes"
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView294"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView288"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/dot_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView295"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView294"
+        android:layout_alignBottom="@+id/textView294"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textView294"
+        android:padding="5dp"
+        android:text="When your baby is not hungry or cranky."
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView296"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView294"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/dot_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView297"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView296"
+        android:layout_alignBottom="@+id/textView296"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textView296"
+        android:layout_toRightOf="@+id/textView296"
+        android:padding="5dp"
+        android:text="Set the mood, play gentle music if you wish."
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView298"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView296"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/dot_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView299"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView298"
+        android:layout_alignBottom="@+id/textView298"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textView298"
+        android:layout_toRightOf="@+id/textView298"
+        android:padding="5dp"
+        android:text="The room should be comfortably warm."
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView302"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView298"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/dot_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView303"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView302"
+        android:layout_alignBottom="@+id/textView302"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textView302"
+        android:layout_toRightOf="@+id/textView302"
+        android:padding="5dp"
+        android:text="Your baby needs a soft surface to lie on."
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView304"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView302"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/dot_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView305"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView304"
+        android:layout_alignBottom="@+id/textView304"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textView304"
+        android:layout_toRightOf="@+id/textView304"
+        android:padding="5dp"
+        android:text="A clean diaper (nappy) or soft towel should be nearby."
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView306"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/dot_text"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView305"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView307"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView306"
+        android:layout_alignBottom="@+id/textView306"
+        android:layout_toEndOf="@+id/textView306"
+        android:layout_toRightOf="@+id/textView306"
+        android:padding="5dp"
+        android:text="A small amount of a mild baby oil or lotion can be used. "
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView308"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView307"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/dot_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView309"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView308"
+        android:layout_alignBottom="@+id/textView308"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textView308"
+        android:layout_toRightOf="@+id/textView308"
+        android:padding="5dp"
+        android:text="Make sure your hands are warm by rubbing them together"
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView310"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView309"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/dot_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView311"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView310"
+        android:layout_alignBottom="@+id/textView310"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textView310"
+        android:layout_toRightOf="@+id/textView310"
+        android:padding="5dp"
+        android:text="Gradually increase the pressure of your touch to avoid tickling"
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView312"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView311"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/dot_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView313"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView312"
+        android:layout_alignBottom="@+id/textView312"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textView312"
+        android:layout_toRightOf="@+id/textView312"
+        android:padding="5dp"
+        android:text="Remember, infants are individuals and may have individual preferences, liking some strokes and not other"
+        android:textColor="#4b4b4b"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/bottle_feeding_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/appbabybanner" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/bottle_feeding_adView"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingStart="10dp">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:padding="8dp"
+                android:text="Bottle feeding must be discouraged for following reason"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView32"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView32"
+                android:layout_below="@+id/textView32"
+                android:src="@drawable/baby_bottle_no" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView26"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/dot_text"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/imageView26"
+                android:layout_alignRight="@+id/imageView26"
+                android:layout_alignTop="@+id/textView115"
+                android:layout_toRightOf="@+id/textView115"
+                android:padding="5dp"
+                android:text="@string/feeding_bottle_text_1"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView116"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/dot_text"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView117"
+                android:layout_toEndOf="@+id/textView117"
+                android:layout_toRightOf="@+id/textView117"
+                android:padding="5dp"
+                android:text="@string/feeding_bottle_text_2"
+                android:textColor="#4b4b4b"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView118"
+                android:layout_toLeftOf="@+id/textView118"
+                android:layout_toStartOf="@+id/textView118"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/dot_text"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView118"
+                android:layout_alignStart="@+id/textView118"
+                android:layout_below="@+id/textView118"
+                android:padding="5dp"
+                android:text="@string/feeding_bottle_text_3"
+                android:textSize="16sp"
+                android:textColor="#4b4b4b" />
+
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView119"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/dot_text"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView120"
+                android:layout_alignStart="@+id/textView120"
+                android:layout_alignTop="@+id/textView121"
+                android:padding="5dp"
+                android:text="@string/feeding_bottle_text_4"
+                android:textSize="16sp"
+                android:textColor="#4b4b4b"/>
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView122"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/dot_text"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView122"
+                android:layout_alignStart="@+id/textView122"
+                android:layout_below="@+id/textView122"
+                android:padding="5dp"
+                android:text="@string/feeding_bottle_text_5"
+                android:textSize="16sp"
+                android:textColor="#4b4b4b" />
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView123"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/dot_text"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView125"
+                android:layout_toEndOf="@+id/textView123"
+                android:layout_toRightOf="@+id/textView123"
+                android:padding="5dp"
+                android:text="@string/feeding_bottle_text_6"
+                android:textSize="16sp"
+                android:textColor="#4b4b4b" />
+
+            <TextView
+                android:id="@+id/textView127"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView125"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/dot_text"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView128"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView125"
+                android:layout_toEndOf="@+id/textView127"
+                android:layout_toRightOf="@+id/textView127"
+                android:padding="5dp"
+                android:text="@string/feeding_bottle_text_7"
+                android:textSize="16sp"
+                android:textColor="#4b4b4b" />
+
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/imageView26"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/imageView26"
+                android:layout_below="@+id/textView127"
+                android:layout_marginBottom="50dp"
+                android:padding="5dp"
+                android:text="@string/feeding_bottle_warning"
+                android:textColor="@color/WarningText"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:scrollbars="none"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_blue_panel_bg">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="20">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/babyDetailsProfileImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/babyprofilr"
+                app:civ_border_color="#fff"
+                app:civ_border_width="2dp" />
+
+            <ImageView
+                android:id="@+id/profileEditImageView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="29dp"
+                android:layout_marginRight="29dp"
+                android:padding="5dp"
+                android:src="@drawable/pencil_64" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="13">
+
+            <TextView
+                android:id="@+id/babyNameEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="25dp"
+                android:editable="false"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Ajinkya G"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView255"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/babyNameEditText"
+                android:layout_alignStart="@+id/babyNameEditText"
+                android:layout_below="@+id/babyNameEditText"
+                android:padding="3dp"
+                android:text="Name"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/babyAgeEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/babyNameEditText"
+                android:layout_alignLeft="@+id/textView255"
+                android:layout_alignRight="@+id/babyNameEditText"
+                android:layout_alignStart="@+id/textView255"
+                android:layout_below="@+id/textView255"
+                android:layout_marginTop="10dp"
+                android:editable="false"
+                android:maxLines="1"
+                android:text="2 years 5 months"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView257"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/babyAgeEditText"
+                android:layout_alignStart="@+id/babyAgeEditText"
+                android:layout_below="@+id/babyAgeEditText"
+                android:padding="3dp"
+                android:text="Age"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignEnd="@+id/babyAgeEditText"
+                android:layout_alignLeft="@+id/textView257"
+                android:layout_alignRight="@+id/babyAgeEditText"
+                android:layout_alignStart="@+id/textView257"
+                android:layout_below="@+id/textView257"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:orientation="vertical"
+                    android:weightSum="9">
+
+                    <TextView
+                        android:id="@+id/textView253"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:text="Weight"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView256"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:text="Height"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView258"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:text="Head circumference"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="14"
+                    android:orientation="vertical"
+                    android:weightSum="9">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:text="Weight"
+                        android:textColor="#fff"
+                        android:textStyle="bold">
+
+                        <View
+                            android:id="@+id/view19"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:id="@+id/babyBirthWeightTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_toLeftOf="@+id/view19"
+                            android:layout_toStartOf="@+id/view19"
+                            android:text="2.5 Kg"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:id="@+id/babyCurrentWeightTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/babyBirthWeightTextView"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/babyBirthWeightTextView"
+                            android:text="15 Kg"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:id="@+id/textView265"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:text="Birth"
+                            android:textSize="11sp" />
+
+                        <TextView
+                            android:id="@+id/textView270"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/babyBirthWeightTextView"
+                            android:layout_toEndOf="@+id/babyBirthWeightTextView"
+                            android:layout_toRightOf="@+id/babyBirthWeightTextView"
+                            android:text="Current"
+                            android:textSize="11sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:text="Height"
+                        android:textColor="#fff"
+                        android:textStyle="bold">
+
+                        <View
+                            android:id="@+id/view20"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:id="@+id/babyBirthHeightTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/view20"
+                            android:layout_toLeftOf="@+id/view20"
+                            android:layout_toStartOf="@+id/view20"
+                            android:text="80 Cm"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:id="@+id/babyCurrentHeightTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/babyBirthHeightTextView"
+                            android:text="80 Cm"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:id="@+id/textView266"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/babyBirthHeightTextView"
+                            android:text="Birth"
+                            android:textSize="11sp" />
+
+                        <TextView
+                            android:id="@+id/textView268"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/textView266"
+                            android:layout_toEndOf="@+id/babyBirthHeightTextView"
+                            android:layout_toRightOf="@+id/babyBirthHeightTextView"
+                            android:text="Current"
+                            android:textSize="11sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:text="Head circumference"
+                        android:textColor="#fff"
+                        android:textStyle="bold">
+
+                        <View
+                            android:id="@+id/view21"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:id="@+id/babyBirthHeadTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/view21"
+                            android:layout_toLeftOf="@+id/view21"
+                            android:layout_toStartOf="@+id/view21"
+                            android:text="80 Cm"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:id="@+id/babyCurrentHeadTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/babyBirthHeadTextView"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/babyBirthHeadTextView"
+                            android:text="80 Cm"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:id="@+id/textView267"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/babyBirthHeadTextView"
+                            android:text="Birth"
+                            android:textSize="11sp" />
+
+                        <TextView
+                            android:id="@+id/textView269"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/babyCurrentHeadTextView"
+                            android:layout_alignStart="@+id/babyCurrentHeadTextView"
+                            android:layout_below="@+id/babyCurrentHeadTextView"
+                            android:text="Current"
+                            android:textSize="11sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/doctorNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/linearLayout2"
+                android:layout_alignLeft="@+id/linearLayout2"
+                android:layout_alignRight="@+id/linearLayout2"
+                android:layout_alignStart="@+id/linearLayout2"
+                android:layout_below="@+id/textView260"
+                android:layout_marginTop="10dp"
+                android:editable="false"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Dr. Nilesh"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView272"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/doctorNameTextView"
+                android:layout_alignStart="@+id/doctorNameTextView"
+                android:layout_below="@+id/doctorNameTextView"
+                android:padding="3dp"
+                android:text="Doctor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/doctorContactTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView272"
+                android:layout_alignStart="@+id/textView272"
+                android:layout_below="@+id/textView272"
+                android:layout_marginTop="10dp"
+                android:editable="false"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="+91 7856234725"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_alignRight="@+id/doctorNameTextView"
+                android:layout_alignEnd="@+id/doctorNameTextView" />
+
+            <TextView
+                android:id="@+id/textView274"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/doctorContactTextView"
+                android:layout_alignStart="@+id/doctorContactTextView"
+                android:layout_below="@+id/doctorContactTextView"
+                android:padding="3dp"
+                android:text="Dr. contact"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/bloodGroupTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/linearLayout2"
+                android:layout_alignStart="@+id/linearLayout2"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginTop="10dp"
+                android:editable="false"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="O+ve"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_alignRight="@+id/linearLayout2"
+                android:layout_alignEnd="@+id/linearLayout2" />
+
+            <TextView
+                android:id="@+id/textView260"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/bloodGroupTextView"
+                android:layout_alignStart="@+id/bloodGroupTextView"
+                android:layout_below="@+id/bloodGroupTextView"
+                android:padding="3dp"
+                android:text="Blood group"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

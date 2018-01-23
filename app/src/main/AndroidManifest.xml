@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.maakservicess.beingparents.app_monitor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/being_parent_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Vaccination_main"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Development_main"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.TrivandrumChart"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.BirthDataCollection"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Login_main"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Feeding_main"
+            android:label="Feeding"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Formula_Feeding_Stages"
+            android:label="Feeding"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Danger_Signs_Main"
+            android:label="Danger signs"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Growth_main"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Rate_us_main"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.BabyDetails"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Growth_overview_data"
+            android:label="Growth entry"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Teeth_main"
+            android:label="Teeth eruption schedule"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Doctor_visit_main"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Xp"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.SupportActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.AddCalendarEvent"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Guidance_Main"
+            android:label="Guidance"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.AboutActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Guidance_Washing_Hands"
+            android:label="How to wash your hands"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.DevelopmentMilestone"
+            android:label="Development milestones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Guidance_Swaddle"
+            android:label="How to swaddle your baby"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Diaper_Sizes"
+            android:label="Diaper sizes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.DiaperSizeActivtiy"
+            android:label="Diaper sizes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.DiaperMainActivity"
+            android:label="Diaper"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Guidance_Handling_NewBorn"
+            android:label="@string/title_activity_handling_new_born"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Guidance_soothing_main"
+            android:label="@string/title_activity_guidance_soothing_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Feeding_Main_Bottle_Feeding"
+            android:label="Bottle feeding"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Formula_Feeding_Main"
+            android:label="Formula feeding"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Guidance_Sleeping_basics"
+            android:label="Sleeping basics"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Feeding_Main_Breast"
+            android:label="@string/title_activity_feeding__main__breast"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Feeding_Main_Complementary_Food"
+            android:label="Complementary feeding"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Guidance_Bathing_Main"
+            android:label="Bathing your baby"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Guidance_Burping"
+            android:label="Burping your baby"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Guidance_FAQ"
+            android:label="Frequently asked questions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Guidance_Infant_Massage"
+            android:label="Infant Massage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.AppNotifications"
+            android:label="Notifications"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.maakservicess.beingparents.app_monitor.activities.Guidance_Brushing_Main"
+            android:label="How to brush your baby's teeth"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name="com.maakservicess.beingparents.app_monitor.AlarmReceiver" />
+    </application>
+
+</manifest>

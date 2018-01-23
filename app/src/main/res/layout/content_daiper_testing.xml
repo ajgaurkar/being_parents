@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.DiaperMainActivity"
+    tools:showIn="@layout/activity_diaper_testing">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view23"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView275"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Diapering Dos and Dont's" />
+
+        <TextView
+            android:id="@+id/textView276"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView275"
+            android:padding="5dp"
+            android:text=" Whichever you use cloth or disposable diapers, baby mostly dirty diapers about 10 times a day, or about 70 times a week.
+        Before diapering your baby, make sure you have all supplies within reach so you won\'t have to leave your infant unattended on the changing table.
+        You\'ll need:"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView283"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView276"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="•"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/diaper_TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView283"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView276"
+            android:layout_toEndOf="@+id/textView283"
+            android:layout_toRightOf="@+id/textView283"
+            android:padding="5dp"
+            android:text="@string/diaper_main_text_1"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView283"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="•"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/diaper_TextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView300"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/diaper_TextView1"
+            android:layout_toEndOf="@+id/textView283"
+            android:layout_toRightOf="@+id/textView283"
+            android:padding="5dp"
+            android:text="@string/diaper_main_text_2"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/textView317"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView300"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="•"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/diaper_TextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/diaper_TextView2"
+            android:layout_toRightOf="@+id/textView317"
+            android:padding="5dp"
+            android:text="@string/diaper_main_text_3"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/textView318"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView317"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="•"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/diaper_TextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView318"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView317"
+            android:layout_toEndOf="@+id/textView317"
+            android:layout_toRightOf="@+id/textView317"
+            android:padding="5dp"
+            android:text="@string/diaper_main_text_4"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView281"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/diaper_TextView4"
+            android:padding="5dp"
+            android:text=" After each bowel movement or if the diaper is wet, lay your baby on his or her back and remove the dirty diaper. Use the water, cotton balls, and washcloth or the wipes to gently wipe your baby\'s genital area clean. When wiping a girl, wipe her bottom from front to back to avoid a urinary tract infection. To prevent or heal a rash, apply ointment. Always remember to wash your hands thoroughly after changing a diaper.
+        To prevent or heal diaper rash,"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView320"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView281"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="•"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/diaper_TextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView281"
+            android:layout_toEndOf="@+id/textView320"
+            android:layout_toRightOf="@+id/textView320"
+            android:padding="5dp"
+            android:text="@string/diaper_main_text_5"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView321"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/diaper_TextView5"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="•"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/diaper_TextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/diaper_TextView5"
+            android:layout_toEndOf="@+id/textView321"
+            android:layout_toRightOf="@+id/textView321"
+            android:padding="5dp"
+            android:text="@string/diaper_main_text_6"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView326"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/diaper_TextView6"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="•"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/textView322"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/textView321"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="•"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+
+        <TextView
+            android:id="@+id/diaper_TextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/diaper_TextView6"
+            android:layout_toEndOf="@+id/textView321"
+            android:layout_toRightOf="@+id/textView321"
+            android:padding="5dp"
+            android:text="@string/diaper_main_text_7"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView327"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/diaper_TextView7"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="•"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/textView324"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/textView322"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="•"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <TextView
+            android:id="@+id/diaper_TextView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/diaper_main_text_8"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp"
+            android:layout_below="@+id/diaper_TextView7"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/textView327"
+            android:layout_toEndOf="@+id/textView327" />
+
+        <TextView
+            android:id="@+id/textView277"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/diaper_TextView8"
+            android:padding="5dp"
+            android:text="If the diaper rash continues for more than 3 days or seems to be getting worse, call your doctor it may be caused by a fungal infection that requires a prescription."
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView28355"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView277"
+            android:layout_toLeftOf="@+id/view23"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Correct"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView3055"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView277"
+            android:layout_toRightOf="@+id/view23"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Worng"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/imageView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView28355"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:src="@drawable/diaper_imag_1"
+            app:siBorderColor="#000"
+            app:siBorderWidth="3dp"
+            app:siRadius="2dp"
+            app:siSquare="false"/>
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/imageView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3055"
+            android:layout_alignStart="@+id/textView3055"
+            android:layout_below="@+id/textView3055"
+            android:layout_marginLeft="43dp"
+            android:layout_marginStart="43dp"
+            android:src="@drawable/diaper_imag_2"
+            app:siBorderColor="#000"
+            app:siBorderWidth="3dp"
+            app:siRadius="2dp"
+            app:siSquare="false"/>
+
+        <TextView
+            android:id="@+id/textView325"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView54"
+            android:layout_alignLeft="@+id/imageView53"
+            android:layout_alignRight="@+id/imageView54"
+            android:layout_alignStart="@+id/imageView53"
+            android:layout_below="@+id/imageView54"
+            android:text="Umbilical cord should be out side diaper. Or it will be contaminated with urine" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/diaper_TextView3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/diaper_TextView2"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="New Text"-->
+        <!--android:textColor="#4b4b4b"-->
+        <!--android:textSize="16sp" />-->
+
+
+        <View
+            android:id="@+id/view24"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView325"
+            android:layout_marginTop="12dp" />
+
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

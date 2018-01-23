@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/editBabyDetailsDoctorNameEditText"
+            android:layout_alignEnd="@+id/editBabyDetailsBloodGroupSppinner"
+            android:layout_alignLeft="@+id/editBabyDetailsBloodGroupSppinner"
+            android:layout_alignRight="@+id/editBabyDetailsBloodGroupSppinner"
+            android:layout_alignStart="@+id/editBabyDetailsBloodGroupSppinner"
+            android:background="#949494" />
+
+        <EditText
+            android:id="@+id/editBabyDetailsNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:hint="Baby's Name"
+            android:maxLines="2" />
+
+        <Spinner
+            android:id="@+id/editBabyDetailsBloodGroupSppinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editBabyDetailsNameEditText"
+            android:layout_alignLeft="@+id/editBabyDetailsNameEditText"
+            android:layout_alignRight="@+id/editBabyDetailsNameEditText"
+            android:layout_alignStart="@+id/editBabyDetailsNameEditText"
+            android:layout_below="@+id/editBabyDetailsNameEditText"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/editBabyDetailsDoctorNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editBabyDetailsNameEditText"
+            android:layout_alignLeft="@+id/editBabyDetailsNameEditText"
+            android:layout_alignRight="@+id/editBabyDetailsNameEditText"
+            android:layout_alignStart="@+id/editBabyDetailsNameEditText"
+            android:layout_below="@+id/editBabyDetailsBloodGroupSppinner"
+            android:hint="Doctor's Name"
+            android:maxLines="2" />
+
+        <EditText
+            android:id="@+id/editBabyDetailsDoctorContactEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editBabyDetailsDoctorNameEditText"
+            android:layout_alignLeft="@+id/editBabyDetailsDoctorNameEditText"
+            android:layout_alignRight="@+id/editBabyDetailsDoctorNameEditText"
+            android:layout_alignStart="@+id/editBabyDetailsDoctorNameEditText"
+            android:layout_below="@+id/editBabyDetailsDoctorNameEditText"
+            android:hint="Doctor's Contact"
+            android:maxLines="1"
+            android:inputType="phone" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

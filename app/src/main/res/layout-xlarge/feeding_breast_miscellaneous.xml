@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="5000dp"
+        android:orientation="vertical"
+        android:paddingEnd="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp">
+
+        <View
+            android:id="@+id/view19"
+            android:layout_width="5dp"
+            android:layout_height="1000dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:text="CAUSES OF “NOT ENOUGH MILK”"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView1"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView2"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView3"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView4"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView5"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView6"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView7"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView8"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/textView228"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView9"
+            android:padding="5dp"
+            android:text="TO ENSURE ADEQUATE MILK SUPPLY"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView228"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView10"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView11"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView12"
+            android:text="New Text" />
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/bath_basic_imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/view19"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/view19"
+            android:layout_below="@+id/textView251"
+            android:adjustViewBounds="true"
+            android:src="@drawable/inverted_syrynge_method"
+            app:siBorderColor="#000"
+            app:siBorderWidth="3dp"
+            app:siRadius="2dp"
+            app:siSquare="false" />
+
+        <TextView
+            android:id="@+id/textView251"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView13"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="Inverted nipple "
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView251"
+            android:layout_toRightOf="@+id/view19"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/breastFeedMiscellaneousTextView14"
+            android:layout_alignRight="@+id/breastFeedMiscellaneousTextView14"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView14"
+            android:layout_toRightOf="@+id/view19"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/breastFeedMiscellaneousTextView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/breastFeedMiscellaneousTextView15"
+            android:layout_alignRight="@+id/breastFeedMiscellaneousTextView15"
+            android:layout_below="@+id/breastFeedMiscellaneousTextView15"
+            android:layout_toRightOf="@+id/view19"
+            android:text="New Text" />
+    </RelativeLayout>
+
+
+</ScrollView>

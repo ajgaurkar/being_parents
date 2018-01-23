@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/textView130"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_1"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView130"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView130"
+            android:layout_toEndOf="@+id/textView42"
+            android:layout_toRightOf="@+id/textView42"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_2"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView46"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView132"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView131"
+            android:layout_toEndOf="@+id/textView131"
+            android:layout_toRightOf="@+id/textView131"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_3"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView133"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView132"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView134"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView132"
+            android:layout_toEndOf="@+id/textView133"
+            android:layout_toRightOf="@+id/textView133"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_4"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView135"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView134"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_5"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/textView136"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView135"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView137"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView135"
+            android:layout_toEndOf="@+id/textView136"
+            android:layout_toRightOf="@+id/textView136"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_6"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView138"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView137"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView139"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView138"
+            android:layout_toEndOf="@+id/textView138"
+            android:layout_toRightOf="@+id/textView138"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_7"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView140"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView139"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView141"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView139"
+            android:layout_toEndOf="@+id/textView140"
+            android:layout_toRightOf="@+id/textView140"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_8"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView142"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView141"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView143"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView142"
+            android:layout_toEndOf="@+id/textView142"
+            android:layout_toRightOf="@+id/textView142"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_9"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView144"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView143"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView143"
+            android:layout_toEndOf="@+id/textView144"
+            android:layout_toRightOf="@+id/textView144"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_10"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView146"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView145"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_11"
+
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/textView147"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView146"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView148"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView147"
+            android:layout_toEndOf="@+id/textView147"
+            android:layout_toRightOf="@+id/textView147"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_12"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView149"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView148"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_13"
+
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/textView150"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView149"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView151"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView149"
+            android:layout_toEndOf="@+id/textView150"
+            android:layout_toRightOf="@+id/textView150"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_14"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView152"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView151"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_15"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/textView153"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView152"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView154"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView153"
+            android:layout_toEndOf="@+id/textView153"
+            android:layout_toRightOf="@+id/textView153"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_16"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView155"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView154"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView156"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView154"
+            android:layout_toEndOf="@+id/textView155"
+            android:layout_toRightOf="@+id/textView155"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_17"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView157"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView156"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView158"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView156"
+            android:layout_toEndOf="@+id/textView157"
+            android:layout_toRightOf="@+id/textView157"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_18"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView159"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView158"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dot_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView160"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView158"
+            android:layout_toEndOf="@+id/textView159"
+            android:layout_toRightOf="@+id/textView159"
+            android:padding="5dp"
+            android:text="@string/feeding_breast_basic_19"
+            android:layout_marginBottom="50dp"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView160" />
+    </RelativeLayout>
+</ScrollView>

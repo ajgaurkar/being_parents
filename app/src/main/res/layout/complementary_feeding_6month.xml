@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:orientation="vertical"
+        android:paddingEnd="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/textView242"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="INTRODUCE GOOD COMPLEMENTERY FOOD"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_6_month_textview_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView242"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView242"
+            android:layout_below="@+id/textView242"
+            android:text="New Text"
+            android:padding="5dp"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_6_month_textview_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/complementary_feeding_6_month_textview_1"
+            android:text="New Text"
+            android:padding="5dp"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_6_month_textview_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_alignEnd="@+id/textView256"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView256"
+            android:layout_below="@+id/textView256"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_6_month_textview_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_6_month_textview_3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_6_month_textview_3"
+            android:layout_below="@+id/complementary_feeding_6_month_textview_3"
+            android:text="New Text"
+            android:padding="5dp"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_6_month_textview_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_6_month_textview_4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_6_month_textview_4"
+            android:layout_below="@+id/complementary_feeding_6_month_textview_4"
+            android:text="New Text"
+            android:padding="5dp"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/bath_basic_imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/sixmonth"
+            app:siBorderColor="#000"
+            app:siBorderWidth="3dp"
+            app:siRadius="2dp"
+            app:siSquare="false"
+            android:layout_below="@+id/complementary_feeding_6_month_textview_5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Roasted flour of any cereal can be mixed with water, sugar (or jaggery) and a little fat (ghee or oil) to make porridge can be used as first feed for baby. In the beginning the porridge could be made little thinner but as the child grows consistency has to be thicker. "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bath_basic_imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView301"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="Fruits like banana, papaya, chikoo, mango could be given in mashed form. "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView301"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView314"
+            android:textColor="#4b4b4b"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:padding="5dp"
+            android:text="Feeding Tips : "
+            android:textColor="#e90d0d"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView316"
+            android:layout_below="@+id/textView315"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Only introduce one new food at a time and feed that one food for a few days to watch for food intolerances. Then introduce another food as baby develop taste for it. "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView319"
+            android:padding="5dp"
+            android:maxLines="3"
+            android:textColor="#e90d0d"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView316"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Start with one spoon twice a day, increase upto 3 spoon twice a day ."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView315"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_below="@+id/textView314"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView256"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text=" Feeding :"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_below="@+id/complementary_feeding_6_month_textview_2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

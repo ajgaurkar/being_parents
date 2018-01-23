@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "703706470196",
+    "firebase_url": "https://babycare-89d59.firebaseio.com",
+    "project_id": "babycare-89d59",
+    "storage_bucket": "babycare-89d59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703706470196:android:057badb108419e18",
+        "android_client_info": {
+          "package_name": "com.example.ajinkya.app_monitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703706470196-8q5uvpgu7odk1ccmrkslen1u6d51be09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq7oXeAbWZs2SO3gFKHgjqfxAnYuWjKi8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703706470196:android:7ad52eb3b118730b",
+        "android_client_info": {
+          "package_name": "com.maakservicess.beingparents.app_monitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703706470196-8q5uvpgu7odk1ccmrkslen1u6d51be09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq7oXeAbWZs2SO3gFKHgjqfxAnYuWjKi8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

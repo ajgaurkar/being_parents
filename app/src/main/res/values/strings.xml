@@ -1,0 +1,1607 @@
+<resources>
+    <string name="app_name">Being Parents</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="diaper_size">Size</string>
+    <string name="movers">Little Movers Weight</string>
+    <string name="snuggler">Little Snugglers Weight</string>
+    <string name="pamper_baby_dry">Baby Dry Weight</string>
+    <string name="pamper_cruisers">Cruisers Weight</string>
+    <string name="pamper_swaddlers">Swaddlers Weight</string>
+
+    <string name="movers_size_1">Little Movers Size 3</string>
+    <string name="movers_size_2">Little Movers Size 4</string>
+    <string name="movers_size_3">Little Movers Size 5</string>
+    <string name="movers_size_4">Little Movers Size 6</string>
+
+    <string name="snuggler_size_1">Snugglers Preemie</string>
+    <string name="snuggler_size_2">Snugglers Newborn</string>
+    <string name="snuggler_size_3">Snugglers Size 1</string>
+    <string name="snuggler_size_4">Snugglers Size 2</string>
+    <string name="snuggler_size_5">Snugglers Size 3</string>
+    <string name="snuggler_size_6">Snugglers Size 4</string>
+    <string name="snuggler_size_7">Snugglers Size 5</string>
+
+    <string name="dry_size_1">Snug and Dry Size 1</string>
+    <string name="dry_size_2">Snug and Dry Size 2</string>
+    <string name="dry_size_3">Snug and Dry Size 3</string>
+    <string name="dry_size_4">Snug and Dry Size 4</string>
+    <string name="dry_size_5">Snug and Dry Size 5</string>
+    <string name="dry_size_6">Snug and Dry Size 6</string>
+
+    <string name="pampers_size_1">Baby Dry Size 1</string>
+    <string name="pampers_size_2">Baby Dry Size 1–2</string>
+    <string name="pampers_size_3">Baby Dry Size 2</string>
+    <string name="pampers_size_4">Baby Dry Size 3</string>
+    <string name="pampers_size_5">Baby Dry Size 4</string>
+    <string name="pampers_size_6">Baby Dry Size 5</string>
+    <string name="pampers_size_7">Baby Dry Size 6</string>
+
+
+    <string name="pampers_cruisers_size_1">Cruisers Size 3</string>
+    <string name="pampers_cruisers_size_2">Cruisers Size 4</string>
+    <string name="pampers_cruisers_size_3">Cruisers Size 5</string>
+    <string name="pampers_cruisers_size_4">Cruisers Size 6</string>
+    <string name="pampers_cruisers_size_5">Cruisers Size 7</string>
+
+
+    <string name="pampers_swaddlers_size_1">Swaddlers Preemie</string>
+    <string name="pampers_swaddlers_size_2">Swaddlers Newborn</string>
+    <string name="pampers_swaddlers_size_3">Swaddlers Size 1</string>
+    <string name="pampers_swaddlers_size_4">Swaddlers Size 1–2</string>
+    <string name="pampers_swaddlers_size_5">Swaddlers Size 2</string>
+    <string name="pampers_swaddlers_size_6">Swaddlers Size 3</string>
+
+    <string name="congratulations_text">Congratulations</string>
+    <string name="development_task_completed_body">All required tasks have been completed</string>
+    <string name="pending_task_head">No task completed</string>
+    <string name="pending_task_incomplete_body">Click on tasks to edit</string>
+
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="blank_string" />
+
+    <string name="title_activity_handling_new_born">Handling Newborn</string>
+    <string name="guidamnce_handling_point_1">Wash your hands (or use a hand sanitizer) before handling your baby.</string>
+    <string name="guidamnce_handling_point_detail_1">Newborns don\'t have a strong immune system yet, so they are susceptible to infection. Make sure that everyone who handles your baby has clean hands.</string>
+    <string name="guidamnce_handling_point_2">Be careful to support your baby\'s head and neck.</string>
+    <string name="guidamnce_handling_point_detail_2">Cradle the head when carrying your baby and support the head when carrying the baby upright or when you lay your baby down.</string>
+    <string name="guidamnce_handling_point_3">Be careful not to shake your newborn.</string>
+    <string name="guidamnce_handling_point_detail_3">Shaking that is : moving vigorously can cause bleeding in the brain and even death. If you need to wake your infant, don\'t do it by shaking - instead, tickle your baby\'s feet or blow gently on a cheek.</string>
+    <string name="guidamnce_handling_point_4">Rough play</string>
+    <string name="guidamnce_handling_point_detail_4">Do not play rough, such as being jiggled on the knee or thrown in the air may be dangerous to baby.</string>
+
+
+    <string name="title_activity_guidance_soothing_main">Why is my baby crying?</string>
+    <string name="guidance_soothing_intro">Usually there’s a reason because of which baby is crying. Remember, when something is bothering your baby, your baby doesn’t have any way to communicate besides crying.</string>
+    <string name="guidance_soothing_cause_1">Dirty diaper?</string>
+    <string name="guidance_soothing_cause_detail_1">Ckech wether the diaper needs to be changed or adjusted?</string>
+    <string name="guidance_soothing_cause_2">Needs to burp?</string>
+    <string name="guidance_soothing_cause_detail_2">Try the different positions outlined in the burping section.</string>
+    <string name="guidance_soothing_cause_3">Gas?</string>
+    <string name="guidance_soothing_cause_detail_3">Try laying your baby on her back and then moving her legs and hips up and down like she’s riding a bicycle.</string>
+    <string name="guidance_soothing_cause_4">Physical discomfort?</string>
+    <string name="guidance_soothing_cause_detail_4">Is the baby too hot or cold? Is there something on the baby that’s too tight or scratchy.</string>
+    <string name="guidance_soothing_cause_5">Lonely?</string>
+    <string name="guidance_soothing_cause_detail_5">If she wakes up and no one is around, she might cry out for some company and just want to be held.</string>
+    <string name="guidance_soothing_cause_6">Hungry?</string>
+    <string name="guidance_soothing_cause_detail_6">Hand her over to mom for some feeding.</string>
+    <string name="guidance_soothing_cause_7">Fever?</string>
+    <string name="guidance_soothing_cause_detail_7">An easy-to-use forehead thermometer is a must for when you have a baby. If the reading says she’s running a temperature, you can give her some acetaminophen. Be sure to check with you doctor for the right dosage.</string>
+    <string name="guidance_soothing_cause_8">Need sleep?</string>
+    <string name="guidance_soothing_cause_detail_8">Check whether the baby is sleepy? If so, make proper arrangements for the baby to sleep.</string>
+    <string name="guidance_soothing_cause_9">Too much stimulus?</string>
+    <string name="guidance_soothing_cause_detail_9">Some babies can be unusually sensitive to touch, light, or sound, and might startle and cry easily, sleep less than expected. If that\'s the case with your baby, keep noise and light levels low to moderate.</string>
+    <string name="guidance_soothing_remedies_intro">Here are some potential soothers</string>
+    <string name="guidance_soothing_remedies_1">Pacifier</string>
+    <string name="guidance_soothing_remedies_detail_1">Not all babies take to the pacifier, and there are pros and cons to using one, but they can definitely work wonders for some baby. Remove the pacifier once baby sleep.</string>
+    <string name="guidance_soothing_remedies_2">Put the baby in a motorized swing</string>
+    <string name="guidance_soothing_remedies_detail_2">Can work in some baby.</string>
+    <string name="guidance_soothing_remedies_3">Swaddle</string>
+    <string name="guidance_soothing_remedies_detail_3">Babies like being tightly wrapped - it reminds them of being back in the womb. Swaddling a baby using a blanket is pretty simple. Don’t try this in baby more than three months. Proper swaddling keeps a baby\'s arms close to the body while allowing for some movement of the legs. Not only does swaddling keep a baby warm, but it seems to give most newborns a sense of security and comfort. Swaddling also may help limit the startle reflex, which can wake a baby.</string>
+    <string name="guidance_soothing_remedies_4">Run the vacuum</string>
+    <string name="guidance_soothing_remedies_detail_4">The womb was a surprisingly loud place, so replicating that kind of noise can put your baby at ease. Running your vacuum next to them can be amazingly effective.</string>
+    <string name="guidance_soothing_remedies_5">Vocal sounds and music</string>
+    <string name="guidance_soothing_remedies_detail_5">Babies usually love vocal sounds, such as talking, babbling, singing, and cooing. Your baby will probably also love listening to music. Baby rattles and musical mobiles are other good ways to stimulate your infant\'s hearing. If your little one is being fussy, try singing, reciting poetry and nursery rhymes, or reading aloud as you sway or rock your baby gently in a chair.</string>
+    <string name="guidance_soothing_remedies_warning">If above remedies don’t work and baby continue to cry without any cause; consult your doctor. Remember inconsolable cry can be a danger sign and need evaluation from doctor</string>
+    <string name="hand_wash_guide_11">Your hands are now safe</string>
+    <string name="hand_wash_guide_10">Use towel to turn of faucet</string>
+    <string name="hand_wash_guide_9">Dry hand thoroughly with a single use towel</string>
+    <string name="hand_wash_guide_8">Rinse hands with water</string>
+    <string name="hand_wash_guide_7">Rotational rubbing back and forth with clasped fingers in palm</string>
+    <string name="hand_wash_guide_6">Rotational rubbing of left thumb clasped in right palm and vice versa</string>
+    <string name="hand_wash_guide_5">Back of fingers to opposing palms with fingers interlocked</string>
+    <string name="hand_wash_guide_4">Palm to palm with interlaced fingers</string>
+    <string name="hand_wash_guide_3">Right palm over left dorsum with interlaced fingers</string>
+    <string name="hand_wash_guide_2">Rub hands palm to palm</string>
+    <string name="hand_wash_guide_1">Apply enough soap to cover all hand surfaces</string>
+    <string name="hand_wash_guide_0">Wet hands with water</string>
+    <string name="wash_hands_header_text_2">Duration of entire process :</string>
+    <string name="wash_hands_header_text_1">Wash hands when visibly soiled ! otherwise, use handrub</string>
+    <string name="wash_hands_header_text_3">40 - 60 Seconds</string>
+    <string name="guidance_swadle_header">Carefully follow the following guidelines to swaddle your baby</string>
+    <string name="guidance_swadle_text_1">Spread out the receiving blanket, with one corner folded over slightly.</string>
+    <string name="guidance_swadle_text_2">Lay the baby face-up on the blanket with his or her head above the folded corner.</string>
+    <string name="guidance_swadle_text_3">Bring the bottom corner up over the baby\'s feet and pull it toward the head, folding the fabric down if it gets close to the face. Be sure not to wrap too tightly around the hips. Hips and knees should be slightly bent and turned out. Wrapping your baby too tightly may increase the chance of hip dysplasia.</string>
+    <string name="guidance_swadle_text_4">Wrap the right corner around the baby, and tuck it under the baby\'s back on the left side, leaving only the neck and head exposed.</string>
+    <string name="guidance_swadle_text_5">To make sure your baby is not wrapped too tight, make sure you can slip a hand between the blanket and your baby\'s chest, which will allow comfortable breathing. Make sure, however, that the blanket is not so loose that it could become undone.</string>
+    <string name="guidance_swadle_text_6_warning">Babies should not be swaddled after they\'re 2 months old. At this age, some babies can roll over while swaddled, which increases their risk of sudden infant death syndrome (SIDS).</string>
+    <string name="title_activity_diaper_main">Diaper</string>
+
+    <string name="sleeping_basics_main_text">
+        <![CDATA[
+       <ul>
+       <br>
+	<li><strong><font size="4">Newborn actually sleeps</strong><strong> about 16 hours or more!</font></strong> Don&#39;t expect yours to sleep through the night &mdash; the digestive system of babies is so small that they need nourishment every few hours and should be awakened if they haven&#39;t been fed for 4 hours (or more frequently if your doctor is concerned about weight gain). </li>
+	<br>
+	<li><strong><font size="4">Use a crib.</font></strong> A crib should be easily assessable to mother (rooming in). Few centers also recommend bedding in (mother and baby in same bed). This helps to develop bonding, lactation and also help to keep baby warm. Before mother sleep baby should be kept in crib. </li>
+		<br>
+	<li><strong><font size="4">It&#39;s important to place babies on their backs to sleep to reduce the risk of SIDS (sudden infant death syndrome).</font></strong> In addition, remove all fluffy bedding, pillows and soft toys from the crib to ensure that your baby doesn&#39;t get tangled in them or suffocate. Also be sure to alternate the position of your baby&#39;s head from night to night (first right, then left, and so on) to prevent the development of a flat spot on one side of the head.</li>
+			<br>
+	<li><strong><font size="4">When can you expect your baby to sleep through the night?</font></strong> &nbsp; Many babies sleep through the night (between 6-8 hours) at 3 months of age, but if yours doesn&#39;t, it&#39;s not a cause for concern. Like adults, babies must develop their own sleep patterns and cycles.</li>
+		<br>
+	<li><strong><font size="4">Many newborns have tend to be more awake and alert at night, and more sleepy during the day.</font></strong> One way to help them is to keep the stimulation at night to a minimum. Keep the lights low, such as by using a nightlight. When your baby wakes up during the day try to keep him or her awake a little longer by talking and playing.</li>
+</ul>
+        ]]>
+</string>
+
+     <string name="html">
+        <![CDATA[
+        <h1>Main Title</h1>
+        <h2>A sub-title</h2>
+        <p>This is some html. Look, here\'s an <u>underline</u>.</p>
+        <p>Look, this is <em>emphasized.</em> And here\'s some <b>bold</b>.</p>
+       <img src="file:///android_res/test_folder/inverted_syrynge_method.png" alt="Mountain View" ">
+        <p>This is a UL list:
+        <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        </ul>
+        <p>This is an OL list:
+        <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        </ol>
+        ]]>
+    </string>
+    <!--<string name="htmltest2">&ndash;&gt;-->
+
+    <!--<![CDATA[-->
+    <!--<h1>Main Title</h1>-->
+    <!--<h2>A sub-title</h2>-->
+    <!--<p>This is some html. Look, here\'s an <u>underline</u>.</p>-->
+    <!--<p>Look, this is <em>emphasized.</em> And here\'s some <b>bold</b>.</p>-->
+    <!--<img src="file:///android_res/drawable/app_boy_1.png" alt="Mountain View" ">-->
+    <!--<p>This is a UL list:-->
+    <!--<ul>-->
+    <!--<li>One</li>-->
+    <!--<li>Two</li>-->
+    <!--<li>Three</li>-->
+    <!--</ul>-->
+    <!--<p>This is an OL list:-->
+    <!--<ol>-->
+    <!--<li>One</li>-->
+    <!--<li>Two</li>-->
+    <!--<li>Three</li>-->
+    <!--</ol>-->
+    <!--]]>-->
+    <!--</string>-->
+
+
+    <string name="feeding_bottle_text_1">High risk of ear infection</string>
+    <string name="feeding_bottle_text_2">Nipple confusion : when breast feed infant attached to bottle, milk flows to baby without sucking. Hence baby find it difficult to feed on breast.</string>
+    <string name="feeding_bottle_text_3">Higher risk of diarrhea.</string>
+    <string name="feeding_bottle_text_4">High risk of micro aspiration and lung infection</string>
+    <string name="feeding_bottle_text_5">High risk of allergies and asthma</string>
+    <string name="feeding_bottle_text_6">High risk of obesity and heart disease</string>
+    <string name="feeding_bottle_text_7">High risk of low intelligence</string>
+    <string name="dot_text">•</string>
+    <string name="feeding_bottle_warning">To bottle feed a baby is a big decision. Always consult your doctor before deciding for bottle feeding. If you have problem in breast feeding, there are ways to solve it. Think twice before switching to bottle feeding.</string>
+    <string name="title_activity_feeding__main__breast">Breast feeding</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_feeding__main__complementary__food">
+        Feeding_Main_Complementary_Food
+    </string>
+    <string name="feeding_breast_basic_1">Nutrition of lactating mothers</string>
+    <string name="feeding_breast_basic_2">A lactating mother requires to eat more than what she was eating during pregnancy.</string>
+    <string name="feeding_breast_basic_3">A lactating mother requires 550 calories extra per day to meet the needs of production of mother\'s milk for the new born baby</string>
+    <string name="feeding_breast_basic_4">A good nutritious diet prepared from low cost locally available food, family support and care, and a pleasant atmosphere in the family helps improve lactation and ensures health of both the mother and baby</string>
+    <string name="feeding_breast_basic_5">Diet</string>
+    <string name="feeding_breast_basic_6">Include more of cereal, pulses and green leafy vegetable in daily diet</string>
+    <string name="feeding_breast_basic_7">Take vegetable and one seasonal fruit a day</string>
+    <string name="feeding_breast_basic_8">Take milk, butter milk, fliuds and a lot of water</string>
+    <string name="feeding_breast_basic_9">Egg meat fish are beneficial</string>
+    <string name="feeding_breast_basic_10">Energy dense food like ghee/oil and sugar are necessary to meet the increased energy needs. Traditional preparations like panjiri laddoo are useful</string>
+    <string name="feeding_breast_basic_11">Rest</string>
+    <string name="feeding_breast_basic_12">Breastfeed in a relaxed state. Any type of mental tensin decreases milk secretion</string>
+    <string name="feeding_breast_basic_13">IFA tablets</string>
+    <string name="feeding_breast_basic_14">Take iron and folic acid tablets for first six months of lactation</string>
+    <string name="feeding_breast_basic_15">Breast milk (per 100 ml)</string>
+    <string name="feeding_breast_basic_16">Calories- 67 cal</string>
+    <string name="feeding_breast_basic_17">Protein-1.1 gm</string>
+    <string name="feeding_breast_basic_18">Fats- 3.8gms</string>
+    <string name="feeding_breast_basic_19">CHO- 7.0 gm</string>
+    <string name="feeding_breast_benefits_1">Benefits to mother</string>
+    <string name="feeding_breast_benefits_2">Psychological</string>
+    <string name="feeding_breast_benefits_3">Increases mothers’ self-confidence</string>
+    <string name="feeding_breast_benefits_4">Increases infant bonding</string>
+    <string name="feeding_breast_benefits_5">Economic</string>
+    <string name="feeding_breast_benefits_6">Cost effective</string>
+    <string name="feeding_breast_benefits_7">Lower infant medical costs</string>
+    <string name="feeding_breast_benefits_8">Hormonal</string>
+    <string name="feeding_breast_benefits_9">Stimulate the uterus to contract</string>
+    <string name="feeding_breast_benefits_10">Decrease maternal postpartum blood loss</string>
+    <string name="feeding_breast_benefits_11">Help the uterus to return to normal size</string>
+    <string name="feeding_breast_benefits_12">Physical</string>
+    <string name="feeding_breast_benefits_13">Delays the return of fertility</string>
+    <string name="feeding_breast_benefits_14">Lowers risk of breast and ovarian cancer</string>
+    <string name="feeding_breast_benefits_15">Benefits to Baby</string>
+    <string name="feeding_breast_benefits_16">Immunological</string>
+    <string name="feeding_breast_benefits_17">Breast milk contains compounds that protect against infections</string>
+    <string name="feeding_breast_benefits_18">Especially high in colostrum, but also in mature milk for months</string>
+    <string name="feeding_breast_benefits_19">Strongest protection against infection during first several months, but continues throughout the duration of breastfeeding</string>
+    <string name="feeding_breast_benefits_20">Breast milk contains</string>
+    <string name="feeding_breast_benefits_21">Antibodies against bacteria, viruses</string>
+    <string name="feeding_breast_benefits_22">Macrophages- complement, lysozyme</string>
+    <string name="feeding_breast_benefits_23">Lactoferrin- protect from bacteria called E-coli</string>
+    <string name="feeding_breast_benefits_24">Low PH- allows healthy bacteria called lactobacillus to grow</string>
+    <string name="feeding_breast_benefits_25">Bile salt stimulated Lipase- prevents Giardial and amoebic infection</string>
+    <string name="feeding_breast_benefits_26">Interferon- protect from viruses</string>
+    <string name="feeding_breast_benefits_27">PABA- protect from malaria</string>
+    <string name="feeding_breast_benefits_28">Reduced infant morbidity</string>
+    <string name="feeding_breast_benefits_29">Breastfeeding reduces infant illnesses</string>
+    <string name="feeding_breast_benefits_30">Lower gastrointestinal and respiratory illness, and ear infections</string>
+    <string name="feeding_breast_benefits_31">Lower risk of allergies and asthma</string>
+    <string name="feeding_breast_benefits_32">Benefits in adult life</string>
+    <string name="feeding_breast_benefits_33">Less chances of coronary heart disease</string>
+    <string name="feeding_breast_benefits_34">Less chances of hypertension</string>
+    <string name="feeding_breast_benefits_35">Diabetes mellitus</string>
+    <string name="feeding_breast_benefits_36">Specially in Low birth weight babies</string>
+    <string name="title_activity_guidance__bathing__main">Guidance_Bathing_Main</string>
+    <string name="title_activity_guidance__brushing__main">Guidance_Brushing_Main</string>
+    <string name="breast_feed_guide_main_text"><![CDATA[<p>Ensure that nose of baby is clear. If some secretions are there clear it gently with ear buds. Latch a baby in a way that breast do not cover the nose. Maximum black portion of nipple should be inside baby\'s mouth. Let baby empty one breast at a time to ensure both hind milk and fore milk. Burp the baby properly after each feed. This reduces vomiting and evening irritability due to swallowed air during feeding. After burping let baby rest on right lateral position for few minutes followed by rest lying on back. Always breastfeed baby during night, it helps to increase amount of milk as oxytocin reflex is strong during night. Talk to baby while feeding, look into baby\'s eyes interact with him. Don\'t read or watch TV while feeding baby. Love for baby increases breast milk<strong>. </strong></p>
+
+<p><strong>Breastfeeding should continue for 1 1/2 - 2 yrs.</strong></p>
+
+<p><strong>Feeding Frequency</strong></p>
+
+<ul>
+	<li>The first few days, feedings may last about 10 minutes on each breast. Later, feedings will last about 10 to 20 minutes on each breast</li>
+	<li>Feedings may be 1 1/2 - to 3 hours apart the first few weeks. Time between feedings lengthen to 3 or 4 hours</li>
+</ul>
+
+<p><strong>Adequacy of Breast milk</strong></p>
+
+<ul>
+	<li>Babies have 5 or more wet diapers/day</li>
+	<li>2-3 soft golden yellow stools/day</li>
+	<li>Sleep for 2-3 hrs after feed</li>
+	<li>Weight gain of 30 gms/day</li>
+</ul>
+
+<p><strong>Hind milk and fore Milk</strong></p>
+
+<ul>
+	<li>Fore Milk - Initial milk collected in lacteal sinuses- watery-satisfy thirst.</li>
+	<li>Hind Milk - milk secreted after fore milk is over. This hind-milk has a higher fat and calories, helps in weight gain. Gives satiety (baby sleeps for adequate time before next feed)</li>
+	<li>Hence baby should be offered one breast at a time till milk is coming to ensure both foremilk and hind milk.</li>
+</ul>]]>
+
+
+</string>
+    <string name="breast_feed_miscellaneous_main_text1">
+       <![CDATA[<p>
+        <p><strong>CAUSES OF &ldquo;NOT ENOUGH MILK&rdquo;</strong></p>
+
+<ul>
+	&#149;<strong>Not breast feeding often</strong>
+	<li><strong>Too short or hurried breast feeding</strong></li>
+	&#149;<strong>Night feeds stopped early</strong>
+	<li><strong>Poor suckling position</strong></li>
+	<li><strong>Engorgement or mastitis </strong></li>
+	\u2022<strong>Bottle feeding/Emotional stress</strong>\u2022
+	\u2022<strong>Removal of milk from the breast</strong><strong> is the signal to make more milk</strong></li>
+	<li><strong>Breast size does not determine the amount of milk produced</strong></li>
+</ul>
+
+<p style="margin-left:.25in;">&nbsp;</p>
+
+<p><strong>TO ENSURE ADEQUATE MILK SUPPLY</strong></p>
+
+	&#8226;<strong> Frequent suckling stimulate milk production.</strong>
+	&#8226;<strong> Alternate breasts should be offered at each feed.</strong>
+	&#8226;<strong> Complete emptying is essential to get Foremilk &amp; Hindmilk.</strong>
+	&#8226;<strong> Demand schedule.</strong>
+
+<p><strong>Inverted nipple&nbsp;</strong></p>        ]]></string>
+
+    <string name="breast_feed_miscellaneous_main_text2"><![CDATA[<p><strong>Inverted nipple </strong></p>
+ <img src="file:///android_res/test_folder/inverted_syrynge_method.png" alt="Mountain View" ">
+<p><strong>Inverted syringe technique for RETRACTED NIPPLE</strong></p>
+
+        <p>If mother has fever, chest pain, pain during breastfeeding the baby, heaviness in breast \-&nbsp;consult the doctor it may be due to engorged breast or mastitis.
+         You might need help in expressing breast milk and some medications. Improper latching and wrong breastfeeding practices can be a reason for this.&nbsp;</p>]]></string>
+
+
+    <string name="diaper_main_text"><![CDATA[
+        <h2>Diapering Dos and Don\'ts</h2>
+        <p>Whichever you use cloth or disposable diapers, baby mostly dirty diapers about 10 times a day, or about 70 times a week.</p>
+        <p>Before diapering your baby, make sure you have all supplies within reach so you won\'t have to leave your infant unattended on the changing table.</p>
+        <p>You\'ll need:
+        <ul>
+        <li>a clean diaper</li>
+        <li>diaper ointment if the baby has a rash</li>
+        <li>a container of warm water</li>
+		<li>clean washcloth, diaper wipes, or cotton balls</li>
+        </ul>
+        <p>After each bowel movement or if the diaper is wet, lay your baby on his or her back and remove the dirty diaper. Use the water, cotton balls, and washcloth or the wipes to gently wipe your baby\'s genital area clean. When wiping a girl, wipe her bottom from front to back to avoid a urinary tract infection. To prevent or heal a rash, apply ointment. Always remember to wash your hands thoroughly after changing a diaper.</p>
+		<p>To prevent or heal diaper rash,
+		<ul>
+        <li>Change your baby\'s diaper frequently, and as soon as possible after bowel movements.</li>
+        <li>After cleaning the area, apply a diaper rash or "barrier" cream. Creams with zinc oxide are preferred because they form a barrier against moisture.</li>
+        <li>If you use cloth diapers, wash them in dye- and fragrance-free detergents.</li>
+		<li>Let the baby go undiapered for part of the day. This gives the skin a chance to air out.</li>
+        </ul>
+		<p>If the diaper rash continues for more than 3 days or seems to be getting worse, call your doctor &mdash; it may be caused by a fungal infection that requires a prescription.</p>
+        ]]></string>
+    <string name="formula_main_text"><![CDATA[<p><strong>Advice especially for the working mothers</strong></p>
+
+<p>Your baby can still receive the benefits of breast milk even if you go out to work. Partial breast-feeding is better than bottle-feeding completely, so continue to breast-feed even after you have been advised to give other foods. If you sleep with your baby, he will breast-feed during the night without disturbing you. Before you leave home in the morning and again when you return, breast-feed your baby. When mixed feeding, always offer the breast before giving other foods.</p>
+
+<p><em>Remember: Breast milk is the best and most economical food for your baby.</em></p>
+
+<p><strong>Seek advice</strong></p>
+
+<p>The use of foods which are not intended for young babies can be harmful. Unnecessary introduction of partial bottle-feeding or other foods and drinks will have a negative effect on breast-feeding. Therefore always consult a health professional before introducing anything other than breast milk.</p>
+
+<p><strong>Using a breast-milk substitute</strong></p>
+
+<p>If a doctor or another health professional recommends an addition to breast-feeding, or its replacement, during the first 6 months of life, it is preferable to use an infant formula meeting recognized quality standards.</p>
+
+<p>When used correctly this supplies the nutritional needs of your baby. You will need more than one can (450g) per week if your baby is only bottle-fed, so keep your family circumstances and costs in mind before deciding whether to use infant formula.</p>
+
+<p>As soon as your baby is old enough, feed infant formula with a cup and spoon</p>
+
+<p><strong>Important notice: </strong>Breast milk is best for babies.</p>
+
+<p>Before you decide to use an Infant Formula, consult your health professional for advice.</p>
+
+<p><strong>Warning: </strong>Unboiled water, unboiled bottles or incorrect dilution can make your baby ill. Incorrect storage, handling, preparation and feeding can potentially lead to adverse effects for the health of your baby.</p>
+
+<p><strong>Warning: </strong>Only prepare one bottle at a time. Feed immediately and follow the instructions exactly. Do not keep unfinished bottle, discard the contents. Always hold baby while feeding. Leaving baby unattended may cause choking.</p> ]]>
+</string>
+
+    <!--<string name="less_than_2Months_danger_sign_Text1" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<h2>Danger Sign</h2>-->
+    <!--<ul>-->
+    <!--<li>Convulsions</li>-->
+    <!--<li>Fast Breathing(60 Breath per minute or more)</li>-->
+    <!--<li>Severe chesting indrawing</li>-->
+    <!--<li>Nasal flaring </li>-->
+    <!--<li>Grunting</li>-->
+    <!--<li>Bulging fontanlle</li>-->
+    <!--<li>10 or more skin pustules or big boil </li>-->
+    <!--<li>if axillary temp 37.5C or above( or feels  hot to touch ) or temp less </li>-->
+    <!--<li>Lethargic or unconscious</li>-->
+    <!--<li>Less than normal movements</li>-->
+    <!--<li>Yellow soles and palms </li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="less_than_2Months_danger_sign_with_diarrhea_Text2" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<h4>Danger Sign with diarrhea</h4>-->
+    <!--<ul>-->
+    <!--<li>Lethergic or unconscious</li>-->
+    <!--<li>Sunken Eyes</li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="less_than_2Months_danger_sign_with_diarrhea_Text3" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Skin Pinch goes black very slowly</li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="less_than_2Months_danger_sign_with_diarrhea_Text4" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Loose motion >14 days</li>-->
+    <!--<li>Blood in Stool</li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="less_than_2Months_danger_sign_with_diarrhea_Text5" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<h4>Not Able to feed-possible serious bacterial infesction or severe malnutrition</h4>-->
+    <!--<ul>-->
+    <!--<li>Not able to feed</li>-->
+    <!--<li>No attachment at all</li>-->
+    <!--<li>Not suckling  at all</li>-->
+    <!--<li>Very low weight for age</li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="less_than_2Months_danger_sign_with_diarrhea_Text6" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<h4>Feed Problem or Low Weight</h4>-->
+    <!--<ul>-->
+    <!--<li>Not well attachement or breast</li>-->
+    <!--<li>Not suckling effecitvly</li>-->
+    <!--<li>Less than 8 brestfeed in 24</li>-->
+    <!--<li>Receives other food  or drink</li>-->
+    <!--<li>Trush(ulcer or white patch in mouth )</li>-->
+    <!--<li>Low weight for age </li>-->
+    <!--<li>Breast or nipple problem  </li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="grter_than_2Months_danger_sign_Text1" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<h4>Danger Sign for Baby </h4>-->
+    <!--<ul>-->
+    <!--<li>Convulsions</li>-->
+    <!--<li>Vomits</li>-->
+    <!--<li>Unconsious</li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="grter_than_2Months_danger_sign_Text2" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<h4>Severe Dehyadration</h4>-->
+    <!--<ul>-->
+    <!--<li>Lethergic or unconscious </li>-->
+    <!--<li>Sunken Eyes</li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="grter_than_2Months_danger_sign_Text3" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Skin Pinch goes black very slowly</li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="grter_than_2Months_danger_sign_Text4" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Loose motion >14 days</li>-->
+    <!--<li>Blood in Stool</li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="grter_than_2Months_danger_sign_Text5" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<h4>Some</h4>-->
+    <!--<ul>-->
+    <!--<li>Restless, irritable</li>-->
+    <!--<li>Sunkens Eyes</li>-->
+    <!--<li>Drinks eargely ,Thirsty</li>-->
+    <!--<li>Skin Pinch goes black very slowly</li>-->
+    <!--<li>Tender Swelling Behind Ear</li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="grter_than_2Months_danger_sign_Text6" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Bulging Fontanell</li>-->
+    <!--<li>Neck Stifness</li>-->
+    <!--<li>Rash On Body</li>-->
+    <!--<li>Severe Wasting Of Muscles</li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="grter_than_2Months_danger_sign_Text7" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Swelling On Hand And Feet</li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+    <!--<string name="grter_than_2Months_danger_sign_Text8" formatted="false">-->
+    <!--<![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Severe Paleness Of Hand</li>-->
+    <!--</ul>-->
+    <!--]]>-->
+    <!--</string>-->
+
+
+
+
+        <string name="less_than_2Months_danger_sign_Text1" formatted="false">
+        <![CDATA[
+         <h2>Danger Sign</h2>
+          <ul>
+        <li>Convulsions</li>
+        <li>Fast Breathing(60 Breath per minute or more)</li>
+        <li>Severe chesting indrawing</li>
+        <li>Nasal flaring </li>
+        <li>Grunting</li>
+        <li>Bulging fontanlle</li>
+        <li>10 or more skin pustules or big boil </li>
+        <li>if axillary temp 37.5C or above( or feels  hot to touch ) or temp less </li>
+        <li>Lethargic or unconscious</li>
+        <li>Less than normal movements</li>
+        <li>Yellow soles and palms </li>
+        </ul>
+        ]]>
+    </string>
+    <string name="less_than_2Months_danger_sign_with_diarrhea_Text2" formatted="false">
+        <![CDATA[
+         <h4>Danger Sign with diarrhea</h4>
+         <ul>
+        <li>Lethargic or unconscious</li>
+        <li>Sunken Eyes</li>
+        </ul>
+        ]]>
+    </string>
+     <string name="less_than_2Months_danger_sign_with_diarrhea_Text3" formatted="false">
+        <![CDATA[
+         <ul>
+        <li>Skin Pinch goes back very slowly</li>
+        </ul>
+        ]]>
+    </string>
+    <string name="less_than_2Months_danger_sign_with_diarrhea_Text4" formatted="false">
+        <![CDATA[
+         <ul>
+        <li>Loose motion >14 days</li>
+        <li>Blood in Stool</li>
+        </ul>
+        ]]>
+    </string>
+    <string name="less_than_2Months_danger_sign_with_diarrhea_Text5" formatted="false">
+        <![CDATA[
+        <h4>Not Able to feed-possible serious bacterial infesction or severe malnutrition</h4>
+         <ul>
+        <li>Not able to feed</li>
+        <li>No attachment at all</li>
+        <li>Not suckling  at all</li>
+        <li>Very low weight for age</li>
+        </ul>
+        ]]>
+    </string>
+    <string name="less_than_2Months_danger_sign_with_diarrhea_Text6" formatted="false">
+        <![CDATA[
+        <h4>Feed Problem or Low Weight</h4>
+         <ul>
+        <li>Not well attachement to breast</li>
+        <li>Not suckling effecitvly</li>
+        <li>Less than 8 brestfeed in 24 hrs</li>
+        <li>Receives other food  or drink</li>
+        <li>Thrush(ulcer or white patch in mouth )</li>
+        <li>Low weight for age </li>
+        <li>Breast or nipple problem  </li>
+        </ul>
+        ]]>
+    </string>
+    <string name="grter_than_2Months_danger_sign_Text1" formatted="false">
+        <![CDATA[
+        <h4>Danger Sign for Baby </h4>
+         <ul>
+        <li>Convulsions</li>
+        <li>Vomits everything </li>
+        <li>Unconcious</li>
+        </ul>
+        ]]>
+    </string>
+    <string name="grter_than_2Months_danger_sign_Text2" formatted="false">
+        <![CDATA[
+        <h4>Severe Dehydration</h4>
+         <ul>
+        <li>Lethargic or unconscious </li>
+        <li>Sunken Eyes</li>
+        </ul>
+        ]]>
+    </string>
+     <string name="grter_than_2Months_danger_sign_Text3" formatted="false">
+        <![CDATA[
+         <ul>
+        <li>Skin Pinch goes back very slowly</li>
+        </ul>
+        ]]>
+    </string>
+    <string name="grter_than_2Months_danger_sign_Text4" formatted="false">
+        <![CDATA[
+         <ul>
+        <li>Loose motion >14 days</li>
+        <li>Blood in Stool</li>
+        </ul>
+        ]]>
+    </string>
+    <string name="grter_than_2Months_danger_sign_Text5" formatted="false">
+        <![CDATA[
+        <h4>Some Dehydration</h4>
+         <ul>
+        <li>Restless, irritable</li>
+        <li>Sunken Eyes</li>
+        <li>Drinks egerly ,Thirsty</li>
+        <li>Skin Pinch goes back very slowly</li>
+        <li>Tender Swelling Behind Ear</li>
+        </ul>
+        ]]>
+    </string>
+     <string name="grter_than_2Months_danger_sign_Text6" formatted="false">
+        <![CDATA[
+         <ul>
+       <li>Bulging Fontanell</li>
+        <li>Neck Stifness</li>
+        <li>Rash On Body</li>
+        <li>Severe Wasting Of Muscles</li>
+        </ul>
+        ]]>
+    </string>
+    <string name="grter_than_2Months_danger_sign_Text7" formatted="false">
+        <![CDATA[
+         <ul>
+         <li>Swelling On Hand And Feet</li>
+        </ul>
+        ]]>
+    </string>
+     <string name="grter_than_2Months_danger_sign_Text8" formatted="false">
+        <![CDATA[
+         <ul>
+       <li>Severe Paleness Of Hand</li>
+        </ul>
+        ]]>
+    </string>
+
+
+    <string name="burping_text_1">Lay your baby\'s face down on your lap. Support your baby\'s head, making sure ity is higher than his or her chest. Gently tap or rub on his or her back.</string>
+    <string name="burping_text_2">Hold your baby upright with his or her head on your shoulder. Support your baby\'s head and back while gently patting the back with your other hand.</string>
+    <string name="burping_text_3">Sit your baby on your lap. Support your baby\'s and head with one hand by cradling your baby\'s chin in the palm of your hand and resting the heel of your hand on your baby\'s chest.(Be careful to grip your baby\'s chin not throat). Use the other hand to gently pat your baby\'s back.</string>
+
+    <string name="title_activity_danger__signs__main">Danger_Signs_Main</string>
+    <string name="bursh_basic_title">HEALTHY TEETH FOR BABIES</string>
+    <string name="bursh_basic_text_1"> <![CDATA[
+         <ul>
+       <li>Before the teeth erupt, clean the baby\'s mouth and gums with a soft cloth or infant toothbrush at bath time. This helps ready the baby for the teeth cleaning to come.</li>
+        </ul>
+        ]]></string>
+    <string name="bursh_basic_text_2"> <![CDATA[
+         <ul>
+       <li>When the teeth erupt, clean the child\'s teeth at least twice a day with a toothbrush designed for small children.</li>
+        </ul>
+        ]]></string>
+    <string name="bursh_basic_text_3"> <![CDATA[
+         <ul>
+       <li>Take the baby to see a pediatric dentist by the baby\'s first birthday. The earlier the visit, the better. </li>
+        </ul>
+        ]]></string>
+    <string name="bursh_basic_text_4"> <![CDATA[
+         <ul>
+       <li>If the baby is placed to sleep with a bottle, use nothing but water. When a child is given a bottle containing sugary liquids such as milk, formula or fruit juice, the teeth are under attack by bacterial acid for extended periods. This can cause cavities in babies called “early childhood caries,” formerly known as baby bottle tooth decay.</li>
+        </ul>
+        ]]></string>
+    <string name="bursh_basic_text_5"> <![CDATA[
+         <ul>
+       <li>Clean the baby\'s mouth with a wet washcloth after breast-feeding.</li>
+        </ul>
+        ]]></string>
+    <string name="bursh_basic_text_6"> <![CDATA[
+         <ul>
+       <li>Never dip a pacifier in anything sweet, it can lead to serious tooth decay.</li>
+        </ul>
+        ]]></string>
+     <string name="bursh_upto2_text_1"> <![CDATA[
+         <ul>
+       <li>You can start to clean a baby\'s teeth as soon as the first tooth appears.</li>
+        </ul>
+        ]]></string>
+         <string name="bursh_upto2_text_2"> <![CDATA[
+         <ul>
+       <li>Before eruption of teeth gum pad can be cleaned with wet cloths.</li>
+        </ul>
+        ]]></string>
+
+    <string name="bursh_upto2_text_3"> <![CDATA[
+         <ul>
+       <li>As more teeth begin to appear, brush the child\'s teeth with a soft toothbrush and water.</li>
+        </ul>
+        ]]></string>
+    <string name="bursh_upto2_text_4"> <![CDATA[
+         <ul>
+       <li>Do Not Use Toothpaste.</li>
+        </ul>
+        ]]></string>
+    <string name="bursh_upto2_text_5"> <![CDATA[
+         <ul>
+       <li>It may be difficult at first but a baby will become used to this routine. Cleaning a baby\'s teeth is very important to help protect against tooth decay.</li>
+        </ul>
+        ]]></string>
+
+
+
+
+    <string name="bursh_above2_text_1"> <![CDATA[
+         <ul>
+       <li>You can start to use toothpaste, but only use a small pea-sized amount of fluoride toothpaste.</li>
+        </ul>
+        ]]></string>
+     <string name="bursh_above2_text_2"> <![CDATA[
+         <ul>
+       <li>Supervise brushing twice a day, at bedtime and one other time during the day.</li>
+        </ul>
+        ]]></string>
+      <string name="bursh_above2_text_3"> <![CDATA[
+         <ul>
+       <li>Children under seven years are not able to brush their own teeth properly, they need help from an adult, the same way they need help shampooing their hair and tying their shoelaces.</li>
+        </ul>
+        ]]></string>
+     <string name="bursh_above2_text_4"> <![CDATA[
+         <ul>
+       <li>Never rinse after brushing, just spit</li>
+        </ul>
+        ]]></string>
+    <string name="bursh_above2_text_5"> <![CDATA[
+         <ul>
+       <li>Remember children should never eat or swallow toothpaste. Make sure a child never manages to eat toothpaste from the tube.</li>
+        </ul>
+        ]]></string>
+  <string name="bursh_above2_text_6"> <![CDATA[
+         <ul>
+       <li>It takes two to three minutes to brush teeth properly (about the length of a song).</li>
+        </ul>
+        ]]></string>
+
+    <string name="newborn_handling_postion_text_1"> <![CDATA[
+         <ul>
+       <li>Head rests against chest or lower shoulder.</li>
+        </ul>
+        ]]></string>
+    <string name="newborn_handling_postion_text_2"> <![CDATA[
+         <ul>
+       <li>Support neck{one hand}.</li>
+        </ul>
+        ]]></string>
+    <string name="newborn_handling_postion_text_3"> <![CDATA[
+         <ul>
+       <li>Support butt{the other hand}.</li>
+        </ul>
+        ]]></string>
+    <string name="newborn_handling_postion_text_4"> <![CDATA[
+         <ul>
+       <li>Keep head turned to one side so baby can breath</li>
+        </ul>
+        ]]></string>
+    <string name="newborn_handling_postion_text_5"> <![CDATA[
+         <p>Benefit: Baby feels secure and can hear your heartbeat</p>
+        ]]></string>
+    <string name="newborn_handling_postion_text_6"><![CDATA[
+        <ul>
+       <li>Support neck and head</li>
+        </ul>
+        ]]></string>
+    <string name="newborn_handling_postion_text_7"> <![CDATA[
+         <p>Benefit: Easy to interact with baby</p>
+        ]]></string>
+
+     <string name="newborn_handling_postion_text_8"><![CDATA[
+        <ul>
+       <li>Crook of arm supports head and neck</li>
+        </ul>
+        ]]></string>0
+     <string name="newborn_handling_postion_text_9"><![CDATA[
+        <ul>
+       <li>Head supports</li>
+        </ul>
+        ]]></string>
+    <string name="newborn_handling_postion_text_10"><![CDATA[
+        <ul>
+       <li>Learn back when possible to avoid strain on your back shoulder</li>
+        </ul>
+        ]]></string>
+     <string name="newborn_handling_postion_text_11"> <![CDATA[
+         <p>Benefit: Benefit: Natural and Easy</p>
+        ]]></string>
+    <string name="sleeping_basic_text1"> <![CDATA[
+         <ul>
+
+	<li><strong><font size="4">Newborn actually sleeps</strong><strong> about 16 hours or more!</font></strong> Don&#39;t expect yours to sleep through the night &mdash; the digestive system of babies is so small that they need nourishment every few hours and should be awakened if they haven&#39;t been fed for 4 hours (or more frequently if your doctor is concerned about weight gain). </li>
+
+	</u>
+        ]]></string>
+
+     <string name="sleeping_basic_text2"> <![CDATA[
+         <ul>
+
+	<li><strong><font size="4">Use a crib.</font></strong> A crib should be easily assessable to mother (rooming in). Few centers also recommend bedding in (mother and baby in same bed). This helps to develop bonding, lactation and also help to keep baby warm. Before mother sleep baby should be kept in crib. </li>
+
+	</u>
+        ]]></string>
+
+     <string name="sleeping_basic_text3"> <![CDATA[
+         <ul>
+
+	<li><strong><font size="4">It&#39;s important to place babies on their backs to sleep to reduce the risk of SIDS (sudden infant death syndrome).</font></strong> In addition, remove all fluffy bedding, pillows and soft toys from the crib to ensure that your baby doesn&#39;t get tangled in them or suffocate. Also be sure to alternate the position of your baby&#39;s head from night to night (first right, then left, and so on) to prevent the development of a flat spot on one side of the head.</li>
+
+	</u>
+        ]]></string>
+      <string name="sleeping_basic_text4"> <![CDATA[
+         <ul>
+
+	<li><strong><font size="4">When can you expect your baby to sleep through the night?</font></strong> &nbsp; Many babies sleep through the night (between 6-8 hours) at 3 months of age, but if yours doesn&#39;t, it&#39;s not a cause for concern. Like adults, babies must develop their own sleep patterns and cycles.</li>
+
+	</u>
+        ]]></string>
+  <string name="sleeping_basic_text5"> <![CDATA[
+         <ul>
+
+	<li><strong><font size="4">Many newborns have tend to be more awake and alert at night, and more sleepy during the day.</font></strong> One way to help them is to keep the stimulation at night to a minimum. Keep the lights low, such as by using a nightlight. When your baby wakes up during the day try to keep him or her awake a little longer by talking and playing.</li>
+
+	</u>
+        ]]></string>
+    <string name="formula_feeding_text_1"> <![CDATA[
+         <ul>
+	<li><strong>Advice especially for the working mothers</strong> Your baby can still receive the benefits of breast milk even if you go out to work. Partial breast-feeding is better than bottle-feeding completely, so continue to breast-feed even after you have been advised to give other foods. If you sleep with your baby, he will breast-feed during the night without disturbing you. Before you leave home in the morning and again when you return, breast-feed your baby. When mixed feeding, always offer the breast before giving other foods.</li>
+	</u>
+        ]]></string>
+    <string name="formula_feeding_text_2"> <![CDATA[
+         <ul>
+	<li><strong>Seek advice</strong> The use of foods which are not intended for young babies can be harmful. Unnecessary introduction of partial bottle-feeding or other foods and drinks will have a negative effect on breast-feeding. Therefore always consult a health professional before introducing anything other than breast milk.</li>
+	</u>
+        ]]></string>
+
+     <string name="formula_feeding_text_3"> <![CDATA[
+         <ul>
+	<li><strong>Using a breast-milk substitute</strong> If a doctor or another health professional recommends an addition to breast-feeding, or its replacement, during the first 6 months of life, it is preferable to use an infant formula meeting recognized quality standards.
+When used correctly this supplies the nutritional needs of your baby. You will need more than one can (450g) per week if your baby is only bottle-fed, so keep your family circumstances and costs in mind before deciding whether to use infant formula.
+As soon as your baby is old enough, feed infant formula with a cup and spoon
+.</li>
+	</u>
+        ]]></string>
+
+    <string name="formula_feeding_text_4"> <![CDATA[
+         <ul>
+	<li>The use of foods which are not intended for young babies can be harmful. Unnecessary introduction of partial bottle-feeding or other foods and drinks will have a negative effect on breast-feeding. Therefore always consult a health professional before introducing anything other than breast milk.</li>
+</u>
+        ]]></string>
+
+     <string name="formula_feeding_text_5"> <![CDATA[
+            <ul>
+	<li>Unboiled water, unboiled bottles or incorrect dilution can make your baby ill. Incorrect storage, handling, preparation and feeding can potentially lead to adverse effects for the health of your baby.</li>
+	<li>Only prepare one bottle at a time. Feed immediately and follow the instructions exactly. Do not keep unfinished bottle, discard the contents. Always hold baby while feeding. Leaving baby unattended may cause choking.</li>
+	</u>
+        ]]></string>
+
+     <string name="complementary_feeding_upto6_text_1"> <![CDATA[
+            <ul>
+
+	<li><strong>Exclusive breast feeding.</strong></li>
+
+	</u>
+        ]]></string>
+     <string name="complementary_feeding_upto6_text_2"> <![CDATA[
+            <ul>
+
+	<li>Each meal must be made energy dense by adding sugar/jaggery and ghee/butter/oil.</li>
+
+	</u>
+        ]]></string>
+<string name="complementary_feeding_upto6_text_3"> <![CDATA[
+            <ul>
+
+	<li>To provide more calories from smaller volumes, food must be thick in consistency - thick enough to stay on the spoon without running off, when the spoon is tilted.</li>
+
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_upto6_text_4"> <![CDATA[
+            <ul>
+
+	<li>The food should be a “balanced food” consisting of various (as diverse as possible) food groups/ components in different combinations.</li>
+
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_upto6_text_5"> <![CDATA[
+            <ul>
+
+	<li> Avoid Junk and Commercial food. Avoid giving ready-made, processed food from the market, e.g. tinned foods/juices, cold-drinks, coffee, tea, chocolates, crisps, health drinks, bakery products etc.</li>
+
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_upto6_text_6"> <![CDATA[
+            <ul>
+
+	<li>Practice responsive feeding. Young children should be encouraged to take feed by praising them and their foods. Self feeding should be encouraged despite spillage. Each child should be fed under supervision in a separate plate to develop an individual identity. Forced feeding, threatening and punishment interfere with development of good / proper feeding habits.</li>
+
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_upto6_text_7"> <![CDATA[
+            <ul>
+
+	<li>Introduce lumpy or granular foods and most tastes by about 9 to 10 months. Missing this age may lead to feeding fussiness later. So do not use mixers/grinders to make food semisolid/pasty.</li>
+
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_upto6_text_8"> <![CDATA[
+            <ul>
+
+	<li>Fish and meat can be started as early as 8 months (well cooked and smashed) but egg should be given only after 1 year or as advised by your pediatrician.</li>
+
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_upto6_text_9"> <![CDATA[
+            <ul>
+
+	<li>Milk can be used to prepare porridge as early as 8 months but should not be given to drink as calories in it are same as breast milk . few pediatrician advise to start cow’s milk only after first birthday to avoid exposure to animal protein. .</li>
+
+	</u>
+        ]]></string>
+
+<string name="complementary_feeding_upto6_text_10"> <![CDATA[
+            <ul>
+	<li>Hands should be washed with soap and water before handling the food as germs that cannot be seen in dirty hands can be passed on to the food.</li>
+	</u>
+        ]]></string>
+
+<string name="complementary_feeding_upto6_text_11"> <![CDATA[
+            <ul>
+	<li>Utensils used should be scrubbed, washed well, dried and kept covered.</li>
+	</u>
+        ]]></string>
+
+    <string name="complementary_feeding_upto6_text_12"> <![CDATA[
+            <ul>
+	<li>Cooking kills most germs. The foods prepared for infants should be cooked properly so as to destroy harmful bacteria present If any.</li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_upto6_text_13"> <![CDATA[
+            <ul>
+	<li>After coking handle the food as little as possible and keep it in a covered container protected from dust and flies.</li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_upto6_text_14"> <![CDATA[
+            <ul>
+	<li>Coked food should not be kept for more than one to two hours in hot climate unless there is a facility to store them in refrigeration temperature.</li>
+	</u>
+        ]]></string>
+<string name="complementary_feeding_upto6_text_15"> <![CDATA[
+            <ul>
+	<li>The hands of both mother and child should be washed before feeding the child.</li>
+	</u>
+        ]]></string>
+
+
+    <string name="complementary_feeding_6month_text_1"> <![CDATA[
+            <ul>
+	<li>From 6 monhs breast milk is no longer enough to support child’s growth.</li>
+	</u>
+        ]]></string>
+ <string name="complementary_feeding_6month_text_2"> <![CDATA[
+            <ul>
+	<li>Give your child enriched borbor and introduce one new food at time. ( Rice , Sweet Potatoes)  </li>
+	</u>
+        ]]></string>
+
+    <string name="complementary_feeding_6month_text_3"> <![CDATA[
+            <ul>
+	<li>Start feeding to give 2-3 tanlespoon of enriched burbor twice a day. </li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_6month_text_4"> <![CDATA[
+            <ul>
+	<li>Food must be well cooked and soft but thick in consistency. </li>
+	</u>
+        ]]></string>
+
+    <string name="complementary_feeding_6month_text_5"> <![CDATA[
+            <ul>
+	<li>Continue breast feeding on demand. </li>
+	</u>
+        ]]></string>
+
+
+    <string name="bath_basic_text_1"> <![CDATA[
+        <p> You should give your baby a sponge bath until:</p>
+        ]]></string>
+    <string name="bath_basic_text_2"> <![CDATA[
+            <ul>
+	<li>The umbilical cord falls off and&nbsp;the navel heals completely (1-4 weeks).</li>
+	</u>
+        ]]></string>
+    <string name="bath_basic_text_3"> <![CDATA[
+            <ul>
+	<li>The circumcision heals (1-2 weeks).</li>
+	</u>
+        ]]></string>
+     <string name="bath_basic_text_4"> <![CDATA[
+           <p>A bath two or three times a week in the first year is fine. More frequent bathing may be drying to the skin.</p>
+               <p>Have these items ready&nbsp;before bathing your baby:</p>
+        ]]></string>
+    <string name="bath_basic_text_5"> <![CDATA[
+             <ul>
+	<li>a soft, clean washcloth.</li>
+	</u>
+        ]]></string>
+    <string name="bath_basic_text_6"> <![CDATA[
+            <ul>
+	<li>mild, unscented baby soap and shampoo.</li>
+	</u>
+        ]]></string>
+     <string name="bath_basic_text_7"> <![CDATA[
+            <ul>
+	<li>a soft brush to stimulate the baby\'s scalp.</li>
+	</u>
+        ]]></string>
+     <string name="bath_basic_text_8"> <![CDATA[
+            <ul>
+	<li>towels or blankets</li>
+	</u>
+        ]]></string>
+    <string name="bath_basic_text_9"> <![CDATA[
+            <ul>
+	<li>a clean diaper</li>
+	</u>
+        ]]></string>
+    <string name="bath_basic_text_10"> <![CDATA[
+            <ul>
+	<li>clean clothes</li>
+	</u>
+        ]]></string>
+
+     <string name="bath_basic_text_11"> <![CDATA[
+      <p>For a sponge bath, select a safe,flat surface (such as a changing table, floor, or counter) in a warm room. </p>
+        ]]></string>
+
+
+     <string name="bath_basic_text_12"> <![CDATA[
+            <ul>
+	<li>Clean eye from inner side of eye to outer side with cotton ball soaked in clean water.</li>
+	</u>
+        ]]></string>
+ <string name="bath_basic_text_13"> <![CDATA[
+            <ul>
+	<li>Use separate cotton balls for other eye.</li>
+	</u>
+        ]]></string>
+     <string name="bath_basic_text_14"> <![CDATA[
+             <p>Next,using baby shampoo, create lather and gently wash your baby\'ts head and rinse. Using a wetcloth and soap, gently wash the rest of the baby, paying special attention to creases under the arms, behind the ears, around the neck, and in the genital area. Once you have washed those areas, make sure they are dry and then diaper and dress your baby.</p>
+        ]]></string>
+     <string name="bath_basic_text_15"> <![CDATA[
+         <p>When your baby is ready for tub baths, the first baths should be gentle and brief. If he or she becomes upset, go back to sponge baths for a week or two, and then try the bath again.</p>
+          <p>In addition to the supplies listed above, add:</p>
+        ]]></string>
+
+
+    <string name="bath_basic_text_16"> <![CDATA[
+            <ul>
+	<li>an infant tub with 2 to 3 inches of warm &mdash; not hot! &mdash; water (to test the water temperature, feel the water with the inside of your elbow or wrist).</li>
+	</u>
+        ]]></string>
+     <string name="bath_basic_text_17"> <![CDATA[
+<p>Undress your baby and then place him or her in the water immediately, in a warm room, to prevent chills. Make sure the water in the tub is no more than 2 to 3 inches deep, and that the water is no longer running in the tub. Use one of your hands to support the head and the other hand to guide the baby in feet-first.</p>
+        ]]></string>
+<string name="bath_basic_text_18"> <![CDATA[
+    <p>Use a washcloth to wash his or her face and hair. Gently massage your baby\'s scalp with the pads of your fingers or a soft baby hairbrush, including the area over the fontanelles (soft spots) on the top of the head.</p>
+ ]]></string>
+
+    <string name="bath_basic_text_19"> <![CDATA[
+    <p>Throughout the bath, regularly pour water gently over your baby\'s body so he or she doesn\'ts get cold. After the bath, wrap your baby in a towel immediately, making sure to cover his or her head.
+ ]]></string>
+
+<string name="bath_basic_text_20"> <![CDATA[
+      <p>Fill a sink, if nearby,or bowl with warm  water. Undress your baby and wrap him or her in a towel. Wipe your infant\'s eyes with a washcloth (or a clean cotton ball) dampened with water only, starting with one eye and wiping from the inner corner to the outer corner. Use a clean corner of the washcloth or another cotton ball to wash the other eye. Clean your baby\'s nose and ears with the damp washcloth. Then wet the cloth again and, using a little soap, wash his or her face gently and pat it dry.</p>
+        ]]></string>
+<string name="bath_basic_text_21"> <![CDATA[
+          <p>In addition to the supplies listed above, add:</p>
+        ]]></string>
+
+    <string name="bath_basic_text_23"> <![CDATA[
+    <p>When you rinse the soap or shampoo from your baby\'s head, cup your hand across the forehead so the suds run toward the sides and soap doesn\'ts get into the eyes. Gently wash the rest of your baby\'s body with water and a small amount of soap.</p>
+ ]]></string>
+
+     <string name="bath_basic_text_24"> <![CDATA[
+    <p>Baby towels with hoods are great for keeping a freshly washed baby warm.</p>
+  <p>While bathing your infant, <strong>never</strong> leave the baby alone. If you need to leave the bathroom, wrap the baby in a towel and take him or her with you.</p>
+ ]]></string>
+
+
+      <string name="bath_html" formatted="false">
+        <![CDATA[
+         <h2>Bathing Basics</h2>
+         <p>You should give your baby a sponge bath until:</p>
+         <ul>
+         <li>The umbilical cord falls off and&nbsp;the navel heals completely (1-4 weeks)</li>
+         <li>The circumcision heals (1-2 weeks)</li>
+         </ul>
+         <p>A bath two or three times a week in the first year is fine. More frequent bathing may be drying to the skin.</p>
+               <p>Have these items ready&nbsp;before bathing your baby:</p>
+        <ul>
+        <li>a soft, clean washcloth</li>
+        <li>mild, unscented baby soap and shampoo</li>
+        <li>a soft brush to stimulate the baby\'s scalp</li>
+        <li>towels or blankets</li>
+        <li>a clean diaper</li>
+        <li>clean clothes</li>
+        </ul>
+         <center><img src="file:///android_res/drawable/bath/bath_image.jpg"  width="100%"></center>
+          <p><h4>Sponge baths</h4></p>
+         <p>For a sponge bath, select a safe,flat surface (such as a changing table, floor, or counter) in a warm room. Fill a sink, if nearby,or bowl with warm  water. Undress your baby and wrap him or her in a towel. Wipe your infant\'s eyes with a washcloth (or a clean cotton ball) dampened with water only, starting with one eye and wiping from the inner corner to the outer corner. Use a clean corner of the washcloth or another cotton ball to wash the other eye. Clean your baby\'s nose and ears with the damp washcloth. Then wet the cloth again and, using a little soap, wash his or her face gently and pat it dry.</p>
+         <table style="width:100%">
+           <tr>
+            <td  width="50%"><img src="file:///android_res/drawable/bath_image.jpg"  width="100%"></td>
+            <td  width="50%"><ul>
+                <li>Clean eye from inner side of eye
+                to outer side with cotton ball soaked
+                 in clean water.</li>
+                <li>Use separate cotton balls for other eye.</li>
+                </ul>
+               </td>
+             </tr>
+             </table>
+             <p>Next,using baby shampoo, create lather and gently wash your baby\'ts head and rinse. Using a wetcloth and soap, gently wash the rest of the baby, paying special attention to creases under the arms, behind the ears, around the neck, and in the genital area. Once you have washed those areas, make sure they are dry and then diaper and dress your baby.</p>
+             <center> <img src="file:///android_res/drawable/bath/bath_image.jpg"  width="100%"> </center>
+             <center><font size="2"><i>Perianal region should be cleaned from upside down. This avoid contamination of urinary system from stool bacteria.</i></font></center>
+              <p><h4>Tub baths</h4></p>
+         <p>When your baby is ready for tub baths, the first baths should be gentle and brief. If he or she becomes upset, go back to sponge baths for a week or two, and then try the bath again.</p>
+          <p>In addition to the supplies listed above, add:</p>
+            <ul>
+            <li>an infant tub with 2 to 3 inches of warm &mdash; not hot! &mdash; water (to test the water temperature, feel the water with the inside of your elbow or wrist).</li>
+            </ul>
+            <p>Undress your baby and then place him or her in the water immediately, in a warm room, to prevent chills. Make sure the water in the tub is no more than 2 to 3 inches deep, and that the water is no longer running in the tub. Use one of your hands to support the head and the other hand to guide the baby in feet-first.</p>
+               <center> <img src="file:///android_res/drawable/bath/bath_image.jpg"  width="100%"> </center>
+               <p>Use a washcloth to wash his or her face and hair. Gently massage your baby\'s scalp with the pads of your fingers or a soft baby hairbrush, including the area over the fontanelles (soft spots) on the top of the head. When you rinse the soap or shampoo from your baby\'s head, cup your hand across the forehead so the suds run toward the sides and soap doesn\'ts get into the eyes. Gently wash the rest of your baby\'s body with water and a small amount of soap.</p>
+                <center> <img src="file:///android_res/drawable/bath/bath_image.jpg"  width="100%"> </center>
+                <p>Throughout the bath, regularly pour water gently over your baby\'s body so he or she doesn\'ts get cold. After the bath, wrap your baby in a towel immediately, making sure to cover his or her head. Baby towels with hoods are great for keeping a freshly washed baby warm.</p>
+                <p>While bathing your infant, <strong>never</strong> leave the baby alone. If you need to leave the bathroom, wrap the baby in a towel and take him or her with you.</p>
+           ]]>
+    </string>
+
+
+    <!--<string name="complementary_feeding_7_8month_text_1"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Rice sweet potato or taro. </li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_7_8month_text_2"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Vegitables such as morning glory, ivy gourd leaves, star gooseberry leaves(n gub), amaranth leaves, pumpkin squash or moring a leaves(Marom) etc </li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_7_8month_text_3"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Add a little oil to make food tasty and increase energy content. </li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_7_8month_text_4"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Increase feeding to 3 per day, half a bowl each day. </li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_7_8month_text_5"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Once the baby tolerate cereal porridge well, mixed foods including cooked, pulse, vegetables could be given cereals (khichadi, dalia, suji, kheer, upma, idli, dokhla, bhaat-bhaji).  Make food more nutritious by adding fat (ghee/ oil) and sugar. Add vegetables to khichadi while cooking. Food should me well cooked and mashed before giving it to baby. If necessary mixture could be passed through sieve to get semisolid paste. </li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_7_8month_text_6"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Offer enough fluids and fiber to prevent constipation. </li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+
+
+
+
+     <string name="complementary_feeding_7_8month_text_1"> <![CDATA[
+            <ul>
+	<li>Rice sweet potato or taro. </li>
+	</u>
+        ]]></string>
+     <string name="complementary_feeding_7_8month_text_2"> <![CDATA[
+            <ul>
+	<li>Green Leafy Vegetables </li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_7_8month_text_3"> <![CDATA[
+            <ul>
+	<li>Add a little oil to make food tasty and increase energy content. </li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_7_8month_text_4"> <![CDATA[
+            <ul>
+	<li>Increase feeding to 3 per day, half a bowl each day. </li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_7_8month_text_5"> <![CDATA[
+            <ul>
+	<li>Once the baby tolerate cereal porridge well, mixed foods including cooked, pulse, vegetables could be given cereals (khichadi, dalia, suji, kheer, upma, idli, dokhla, bhaat-bhaji).  Make food more nutritious by adding fat (ghee/ oil) and sugar. Add vegetables to khichadi while cooking. Food should me well cooked and mashed before giving it to baby. If necessary mixture could be passed through sieve to get semisolid paste. </li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_7_8month_text_6"> <![CDATA[
+            <ul>
+	<li>Offer enough fluids and fiber to prevent constipation. </li>
+	</u>
+        ]]></string>
+
+    <!--<string name="complementary_feeding_9_11month_text_1"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Rice sweet potato or taro. </li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_9_11month_text_2"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Vegitables such as morning glory, ivy gourd leaves, star gooseberry leaves(n gub), amaranth leaves, pumpkin squash or morning a leaves(Marom) etc. </li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_9_11month_text_3"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Add a little oil to make food tasty and increase energy content.</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_9_11month_text_4"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Feed borbor 3 times a day. Increase  the amount of food to an almost full bowl at each meal.</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_9_11month_text_5"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Give a snack each day, preferably fruits(banana, papaya, mango ,milk friut).</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_9_11month_text_6"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Dairy product 2 cups .</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+
+    <!--<string name="complementary_feeding_9_11month_text_7"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Fruit 1Cup.</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_9_11month_text_8"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Vegetable 1 Cup.</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+
+
+
+        <string name="complementary_feeding_9_11month_text_1"> <![CDATA[
+            <ul>
+	<li>Rice sweet potato or taro. </li>
+	</u>
+        ]]></string>
+     <string name="complementary_feeding_9_11month_text_2"> <![CDATA[
+            <ul>
+	<li>Green Leafy Vegetables  </li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_9_11month_text_3"> <![CDATA[
+            <ul>
+	<li>Add a little oil to make food tasty and increase energy content.</li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_9_11month_text_4"> <![CDATA[
+            <ul>
+	<li>Feed borbor 3 times a day. Increase  the amount of food to an almost full bowl at each meal.</li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_9_11month_text_5"> <![CDATA[
+            <ul>
+	<li>Give a snack each day, preferably fruits(banana, papaya, mango ,milk friut).</li>
+	</u>
+        ]]></string>
+<string name="complementary_feeding_9_11month_text_6"> <![CDATA[
+            <ul>
+	<li>Dairy product 2 cups .</li>
+	</u>
+        ]]></string>
+
+ <string name="complementary_feeding_9_11month_text_7"> <![CDATA[
+            <ul>
+	<li>Fruit 1Cup.</li>
+	</u>
+        ]]></string>
+     <string name="complementary_feeding_9_11month_text_8"> <![CDATA[
+            <ul>
+	<li>Vegetable 1 Cup.</li>
+	</u>
+        ]]></string>
+
+
+    <!--<string name="complementary_feeding_12_23month_text_1"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Rice sweet potato or taro.</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_12_23month_text_2"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Fish, meat,liver,egg or beans(peanut,mungbean).</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_12_23month_text_3"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Vegitables such as morning glory, ivy gourd leaves, star gooseberry leaves(n gub), amaranth leaves, pumpkin etc.</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_12_23month_text_4"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Add a little oil to make food tasty and increase energy content.</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_12_23month_text_5"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Feed enriched borbor 3 times a day.</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_12_23month_text_6"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Increase the amount of food to a full bowl at each meal.</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_12_23month_text_7"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Give snacks, especially fruits 2 times per day.</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_12_23month_text_8"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Dairy product 2 Cups .</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_12_23month_text_9"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Fruit 1Cup.</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+    <!--<string name="complementary_feeding_12_23month_text_10"> <![CDATA[-->
+    <!--<ul>-->
+    <!--<li>Vegetable 1 Cup.</li>-->
+    <!--</u>-->
+    <!--]]></string>-->
+
+
+         <string name="complementary_feeding_12_23month_text_1"> <![CDATA[
+            <ul>
+	        <li>Rice sweet potato or taro.</li>
+	        </u>
+            ]]></string>
+        <string name="complementary_feeding_12_23month_text_2"> <![CDATA[
+            <ul>
+	        <li>Fish, meat,liver,egg or beans(peanut,mungbean).</li>
+	        </u>
+            ]]></string>
+        <string name="complementary_feeding_12_23month_text_3"> <![CDATA[
+            <ul>
+	        <li>Green Leafy Vegetables. </li>
+	        </u>
+            ]]></string>
+        <string name="complementary_feeding_12_23month_text_4"> <![CDATA[
+            <ul>
+	        <li>Add a little oil to make food tasty and increase energy content.</li>
+	        </u>
+            ]]></string>
+        <string name="complementary_feeding_12_23month_text_5"> <![CDATA[
+            <ul>
+	        <li>Feed enriched food 3 times a day.</li>
+	        </u>
+            ]]></string>
+        <string name="complementary_feeding_12_23month_text_6"> <![CDATA[
+            <ul>
+	        <li>Increase the amount of food to a full bowl at each meal.</li>
+	        </u>
+            ]]></string>
+        <string name="complementary_feeding_12_23month_text_7"> <![CDATA[
+            <ul>
+	        <li>Give snacks, especially fruits 2 times per day.</li>
+	        </u>
+            ]]></string>
+        <string name="complementary_feeding_12_23month_text_8"> <![CDATA[
+            <ul>
+	<li>Dairy product 2 Cups .</li>
+	</u>
+        ]]></string>
+        <string name="complementary_feeding_12_23month_text_9"> <![CDATA[
+            <ul>
+	<li>Fruit 1Cup.</li>
+	</u>
+        ]]></string>
+        <string name="complementary_feeding_12_23month_text_10"> <![CDATA[
+            <ul>
+	<li>Vegetable 1 Cup.</li>
+	</u>
+        ]]></string>
+
+    <string name="complementary_feeding_23_36month_text_1"> <![CDATA[
+            <ul>
+	<li>Pediatricians now state that it is okay to give eggs after one year, but still watch for allergic reactions.</li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_23_36month_text_2"> <![CDATA[
+            <ul>
+	<li>Never give juices in a bottle or before sleep. Always give juices in a cup when child is fully awake. This helps to prevent tooth decay.</li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_23_36month_text_3"> <![CDATA[
+            <ul>
+	<li>Use caution with foods that are choking hazards. These include; grapes, nuts, raisins or dried fruits, chips and popcorn. Grapes need to be chopped into very small quarters..</li>
+	</u>
+        ]]></string>
+    <string name="complementary_feeding_23_36month_text_4"> <![CDATA[
+            <ul>
+	<li>Dried fruits can be soaked in liquid to soften. Nuts and popcorn should not be given to very young children.</li>
+	</u>
+        ]]></string>
+     <string name="complementary_feeding_23_36month_text_5"> <![CDATA[
+            <ul>
+	<li>Dairy product 2 Cups .</li>
+	</u>
+        ]]></string>
+     <string name="complementary_feeding_23_36month_text_6"> <![CDATA[
+            <ul>
+	<li>Fruit 1 to 1 ½ Cups.</li>
+	</u>
+        ]]></string>
+     <string name="complementary_feeding_23_36month_text_7"> <![CDATA[
+            <ul>
+	<li>Vegetable 1 to 1 ½ Cups.</li>
+	</u>
+        ]]></string>
+     <string name="complementary_feeding_23_36month_text_8"> <![CDATA[
+            <ul>
+	<li>Grains 4 to 5 ounces including; 1 slice of bread = 1 ounce, ¼ Cup rice, pasta or cereal.</li>
+	</u>
+        ]]></string>
+     <string name="complementary_feeding_23_36month_text_9"> <![CDATA[
+            <ul>
+	<li>Proteins 3 to 4 ounces including; 1 ounce meat, 1 egg or ¼ Cup beans.</li>
+	</u>
+        ]]></string>
+
+    <string name="breast_feed_miscellaneous_maintext2"> <![CDATA[
+            <ul>
+	        <li>Not breast feeding often.</li>
+	        </u>
+            ]]></string>
+    <string name="breast_feed_miscellaneous_maintext3"> <![CDATA[
+            <ul>
+	        <li>Too short or hurried breast feeding</li>
+	        </u>
+            ]]></string>
+    <string name="breast_feed_miscellaneous_maintext4"> <![CDATA[
+            <ul>
+	        <li>Night feeds stopped early.</li>
+	        </u>
+            ]]></string>
+    <string name="breast_feed_miscellaneous_maintext5"> <![CDATA[
+            <ul>
+	        <li>Poor suckling position.</li>
+	        </u>
+            ]]></string>
+    <string name="breast_feed_miscellaneous_maintext6"> <![CDATA[
+            <ul>
+	        <li>Engorgement or mastitis.</li>
+	        </u>
+            ]]></string>
+    <string name="breast_feed_miscellaneous_maintext7"> <![CDATA[
+            <ul>
+	        <li>Bottle feeding/Emotional stress.</li>
+	        </u>
+            ]]></string>
+    <string name="breast_feed_miscellaneous_maintext8"> <![CDATA[
+            <ul>
+	        <li>Removal of milk from the breast is the signal to make more milk.</li>
+	        </u>
+            ]]></string>
+    <string name="breast_feed_miscellaneous_maintext9"> <![CDATA[
+            <ul>
+	        <li>Breast size does not determine the amount of milk produced.</li>
+	        </u>
+            ]]></string>
+ <string name="breast_feed_miscellaneous_maintext10"> <![CDATA[
+            <ul>
+	        <li>Frequent suckling stimulate milk production.</li>
+	        </u>
+            ]]></string>
+     <string name="breast_feed_miscellaneous_maintext11"> <![CDATA[
+            <ul>
+	        <li>Alternate breasts should be offered at each feed.</li>
+	        </u>
+            ]]></string>
+     <string name="breast_feed_miscellaneous_maintext12"> <![CDATA[
+            <ul>
+	        <li>Complete emptying is essential to get Foremilk & Hindmilk.</li>
+	        </u>
+            ]]></string>
+     <string name="breast_feed_miscellaneous_maintext13"> <![CDATA[
+            <ul>
+	        <li>Demand schedule.</li>
+	        </u>
+            ]]></string>
+
+     <string name="breast_feed_miscellaneous_maintext14"> <![CDATA[
+            <ul>
+	        <li>Cut the nozzle.</li>
+	        </u>
+            ]]></string>
+     <string name="breast_feed_miscellaneous_maintext15"> <![CDATA[
+            <ul>
+	        <li>Introduce piston throguh cut end.</li>
+	        </u>
+            ]]></string>
+     <string name="breast_feed_miscellaneous_maintext16"> <![CDATA[
+            <ul>
+	        <li>Apply base to areola.</li>
+	        </u>
+            ]]></string>
+
+
+
+      <string name="guidance_infant_massagae_text1"> <![CDATA[
+            <ul>
+	        <li>Weight gain .</li>
+	        </u>
+            ]]></string>
+  <string name="guidance_infant_massagae_text2"> <![CDATA[
+            <ul>
+	        <li>Infants who receive massage therapy appear more alert .</li>
+	        </u>
+            ]]></string>
+ <string name="guidance_infant_massagae_text3"> <![CDATA[
+            <ul>
+	        <li>Topically applied oil to preterm skin (thin and vascular) can be absorbed systemically and serve nutritional purposes .</li>
+	        </u>
+            ]]></string>
+     <string name="guidance_infant_massagae_text4"> <![CDATA[
+            <ul>
+	        <li>Improved thermoregulation by decrease in the convection losses through skin .</li>
+	        </u>
+            ]]></string>
+    <string name="guidance_infant_massagae_text5"> <![CDATA[
+            <ul>
+	        <li>Enhanced the adjustment of circadian rhythms to nocturnal period .</li>
+	        </u>
+            ]]></string>
+    <string name="guidance_infant_massagae_text6"> <![CDATA[
+            <ul>
+	        <li>Reduced incidence of colic  .</li>
+	        </u>
+            ]]></string>
+     <string name="guidance_infant_massagae_text7"> <![CDATA[
+            <ul>
+	        <li> Improved sleep (compared with no massage)  .</li>
+	        </u>
+            ]]></string>
+     <string name="guidance_infant_massagae_text8"> <![CDATA[
+            <ul>
+	        <li>Improved interaction behaviors .</li>
+	        </u>
+            ]]></string>
+
+
+    <string name="diaper_main_text_1">a clean diaper .</string>
+    <string name="diaper_main_text_2">diaper ointment if the baby has a rash .</string>
+    <string name="diaper_main_text_3">a container of warm water .</string>
+    <string name="diaper_main_text_4">clean washcloth, diaper wipes, or cotton balls.</string>
+    <string name="diaper_main_text_5">Change your baby\'s diaper frequently, and as soon as possible after bowel movements.</string>
+    <string name="diaper_main_text_6">After cleaning the area, apply a diaper rash or "barrier" cream. Creams with zinc oxide are preferred because they form a barrier against moisture.</string>
+    <string name="diaper_main_text_7">If you use cloth diapers, wash them in dye- and fragrance-free detergents.</string>
+    <string name="diaper_main_text_8">Let the baby go undiapered for part of the day. This gives the skin a chance to air out.</string>
+
+
+
+      <string name="bathing_special_care_text"> <![CDATA[
+        <p>Immediately after circumcision ,the tip of the penis is usually covered with gauze coated with petroleum jelly to keep the wound from sticking to the diaper. Gently wipe the tip clean with warm water after a diaper change, then apply petroleum jelly to the tip so it doesn\'t stick to the diaper. Redness or irritation of the penis should heal within a few days, but if the redness or swelling increases or if pus-filled blisters form, infection may be present and you should call your baby\'s doctor immediately.</p>
+        <p>Umbilical cord care in newborns is also important. Some doctors suggest swabbing the area with rubbing alcohol until the cord stump dries up and falls off, usually in 10 days to 3 weeks, but others recommend leaving the area alone. Talk to your child\'s doctor to see what he or she prefers.</p>
+        <p>An infant\'s navel area shouldn\'t be submerged in water until the cord stump falls off and the area is healed. Until it falls off, the cord stump will change color from yellow to brown or black &mdash; this is normal. Consult your doctor if the navel area becomes reddened or if a foul odor or discharge develops.</p>
+        ]]></string>
+
+
+    <!--<string name="interstitial_full_screen">ca-app-pub-0664570763252260/1769900428</string>-->
+    <!--<string name="App_banner">ca-app-pub-6466378660657037/7476825309</string>-->
+    <string name="appbabyinterstitial">ca-app-pub-1545525873082095/1377165364</string>
+    <string name="appbabybanner">ca-app-pub-1545525873082095/2853898569</string>
+    <string name="Exit">Exit</string>
+
+</resources>

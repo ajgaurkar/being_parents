@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:padding="5dp">
+
+    <View
+        android:id="@+id/calendarListItemCategoryView"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#ff0000" />
+
+    <View
+        android:id="@+id/view17"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/calendarListItemTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view17"
+        android:layout_alignTop="@+id/calendarListItemCategoryView"
+        android:layout_toRightOf="@+id/calendarListItemCategoryView"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:paddingStart="5dp"
+        android:text="Walking has been started"
+        android:textStyle="italic"
+        android:layout_alignRight="@+id/view17"
+        android:layout_alignEnd="@+id/view17" />
+
+    <TextView
+        android:id="@+id/calendarListItemDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/calendarListItemTitleTextView"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:text="89 Fgy 4062"
+        android:textStyle="italic"
+        android:layout_toRightOf="@+id/calendarListItemCategoryView"
+        android:layout_toEndOf="@+id/calendarListItemCategoryView" />
+
+    <TextView
+        android:id="@+id/calendarListItemImgCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/view17"
+        android:gravity="center_vertical"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp"
+        android:text="3"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/calendarListItemImgCountImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/attachment_count_camera_24"
+        android:layout_below="@+id/calendarListItemTitleTextView"
+        android:layout_toLeftOf="@+id/calendarListItemImgCountTextView"
+        android:layout_toStartOf="@+id/calendarListItemImgCountTextView"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

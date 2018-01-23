@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_blue_panel_bg">
+
+    <TextView
+        android:id="@+id/textView251"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="Add your newborn's detail"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView251"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/login_blue_panel_bg">
+
+        <Spinner
+            android:id="@+id/birthWeightSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_page_panels_bg" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/birthWeightSpinner"
+            android:layout_alignEnd="@+id/birthWeightSpinner"
+            android:layout_alignRight="@+id/birthWeightSpinner"
+            android:layout_alignTop="@+id/birthWeightSpinner"
+            android:src="@drawable/spinner_down_50" />
+
+        <Spinner
+            android:id="@+id/birthHeightSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/birthHeadSpinner"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/login_page_panels_bg" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bloodGroupSpinner"
+            android:layout_alignEnd="@+id/birthHeightSpinner"
+            android:layout_alignLeft="@+id/imageView39"
+            android:layout_alignRight="@+id/birthHeightSpinner"
+            android:layout_alignStart="@+id/imageView39"
+            android:layout_alignTop="@+id/birthHeightSpinner"
+            android:src="@drawable/spinner_down_50" />
+
+        <Spinner
+            android:id="@+id/birthHeadSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/birthWeightSpinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/login_page_panels_bg" />
+
+        <Spinner
+            android:id="@+id/bloodGroupSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/birthHeightSpinner"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/login_page_panels_bg" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/doctorNameEditText"
+            android:layout_alignEnd="@+id/bloodGroupSpinner"
+            android:layout_alignRight="@+id/bloodGroupSpinner"
+            android:layout_alignTop="@+id/bloodGroupSpinner"
+            android:src="@drawable/spinner_down_50" />
+
+        <EditText
+            android:id="@+id/doctorNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/bloodGroupSpinner"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/login_page_panels_bg"
+            android:hint="Doctor"
+            android:inputType="textPersonName"
+            android:paddingLeft="50dp"
+            android:paddingStart="50dp"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/doctorContactEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/doctorNameEditText"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/login_page_panels_bg"
+            android:paddingLeft="50dp"
+            android:paddingStart="50dp"
+            android:singleLine="true"
+            android:hint="Contact"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/enterBirthDataBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/doctorContactEditText"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Get Started"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/birthHeadSpinner"
+            android:layout_alignEnd="@+id/birthHeadSpinner"
+            android:layout_alignRight="@+id/birthHeadSpinner"
+            android:layout_alignTop="@+id/birthHeadSpinner"
+            android:src="@drawable/spinner_down_50" />
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/enterBirthDataBtn"
+            android:layout_alignLeft="@+id/doctorContactEditText"
+            android:layout_alignStart="@+id/doctorContactEditText"
+            android:layout_alignTop="@+id/doctorContactEditText"
+            android:padding="3dp"
+            android:src="@drawable/phone_50" />
+
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/doctorContactEditText"
+            android:layout_alignLeft="@+id/doctorNameEditText"
+            android:layout_alignStart="@+id/doctorNameEditText"
+            android:layout_alignTop="@+id/doctorNameEditText"
+            android:padding="3dp"
+            android:src="@drawable/doctor_50" />
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/birthHeadSpinner"
+            android:layout_alignLeft="@+id/birthWeightSpinner"
+            android:layout_alignStart="@+id/birthWeightSpinner"
+            android:layout_alignTop="@+id/birthWeightSpinner"
+            android:padding="3dp"
+            android:src="@drawable/weight_50" />
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/birthHeightSpinner"
+            android:layout_alignLeft="@+id/birthHeadSpinner"
+            android:layout_alignStart="@+id/birthHeadSpinner"
+            android:layout_alignTop="@+id/birthHeadSpinner"
+            android:padding="3dp"
+            android:src="@drawable/baby_head_25" />
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bloodGroupSpinner"
+            android:layout_alignLeft="@+id/birthHeightSpinner"
+            android:layout_alignStart="@+id/birthHeightSpinner"
+            android:layout_alignTop="@+id/birthHeightSpinner"
+            android:padding="6dp"
+            android:src="@drawable/height_scale_48" />
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/doctorNameEditText"
+            android:layout_alignLeft="@+id/bloodGroupSpinner"
+            android:layout_alignStart="@+id/bloodGroupSpinner"
+            android:layout_alignTop="@+id/bloodGroupSpinner"
+            android:padding="3dp"
+            android:src="@drawable/drop_50" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

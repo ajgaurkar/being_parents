@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/textView242"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text=" "
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView242"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView242"
+            android:layout_below="@+id/textView242"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_1"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_1"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_2"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_2"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_3"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_3"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_4"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_4"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_5"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_5"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_6"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_6"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_7"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_7"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_8"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_8"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView253"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_9"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_9"
+            android:padding="5dp"
+            android:text="HYGIENE CONSIDERATION :"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView255"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView253"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView253"
+            android:layout_below="@+id/textView253"
+            android:padding="5dp"
+            android:text="Some of the considerations while preparing foods for infants are as under :"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView255"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView255"
+            android:layout_below="@+id/textView255"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_10"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_10"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_11"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_11"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_12"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_12"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_13"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_13"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_upto6_textview_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_upto6_textview_14"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_upto6_textview_14"
+            android:layout_below="@+id/complementary_feeding_upto6_textview_14"
+            android:layout_marginBottom="150dp"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

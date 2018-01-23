@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/appVersionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView29"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Version"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/being_parent_icon_x" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView52"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Being Parents"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignLeft="@+id/textView29"
+        android:layout_alignStart="@+id/textView29"
+        android:layout_below="@+id/appVersionTextView"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:id="@+id/textView324"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView322"
+        android:padding="5dp"
+        android:text="MBBS, MD Paediatrics
+Consultant paediatrician and neonatologist from Nagpur"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView322"
+        android:layout_alignStart="@+id/textView322"
+        android:layout_alignRight="@+id/textView322"
+        android:layout_alignEnd="@+id/textView322" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView56"
+        android:layout_alignStart="@+id/imageView56"
+        android:layout_below="@+id/textView324"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/ic_launcher_maak_xhdpi" />
+
+    <TextView
+        android:id="@+id/textView328"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:padding="5dp"
+        android:text="MAAK Services Pvt Ltd."
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView324"
+        android:layout_alignLeft="@+id/textView324"
+        android:layout_alignStart="@+id/textView324" />
+
+    <TextView
+        android:id="@+id/textView329"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Software Developement Center Nagpur"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView328"
+        android:layout_alignLeft="@+id/textView328"
+        android:layout_alignStart="@+id/textView328" />
+
+    <TextView
+        android:id="@+id/textView322"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Dr.Nilesh Darvhekar"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/view8"
+        android:layout_toRightOf="@+id/imageView56"
+        android:layout_toEndOf="@+id/imageView56"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/ic_launcher_xhdpi_nilesh"
+        android:layout_below="@+id/view8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

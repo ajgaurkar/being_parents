@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp">
+
+
+        <TextView
+            android:id="@+id/textView257"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="INCREASE AMOUNT OF ENRICHED FOOD BY USING : "
+            android:textColor="#4b4b4b"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_7_8month_textview_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView257"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView257"
+            android:layout_below="@+id/textView257"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_7_8month_textview_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_7_8month_textview_1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_7_8month_textview_1"
+            android:layout_below="@+id/complementary_feeding_7_8month_textview_1"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_7_8month_textview_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_7_8month_textview_2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_7_8month_textview_2"
+            android:layout_below="@+id/complementary_feeding_7_8month_textview_2"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView256"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_7_8month_textview_3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_7_8month_textview_3"
+            android:layout_below="@+id/complementary_feeding_7_8month_textview_3"
+            android:padding="5dp"
+            android:text=" Feeding : "
+            android:textColor="#4b4b4b"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_7_8month_textview_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView256"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView256"
+            android:layout_below="@+id/textView256"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_7_8month_textview_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_7_8month_textview_4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_7_8month_textview_4"
+            android:layout_below="@+id/complementary_feeding_7_8month_textview_4"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_7_8month_textview_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/complementary_feeding_7_8month_textview_5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/complementary_feeding_7_8month_textview_5"
+            android:layout_below="@+id/complementary_feeding_7_8month_textview_5"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/bath_basic_imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/complementary_feeding_7_8month_textview_6"
+            android:adjustViewBounds="true"
+            android:src="@drawable/seveneightfeeding"
+            app:siBorderColor="#000"
+            app:siBorderWidth="3dp"
+            app:siRadius="2dp"
+            app:siSquare="false" />
+
+        <TextView
+            android:id="@+id/textView291"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/bath_basic_imageView2"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="Amount of Feeding :"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/complementary_feeding_7_8month_textview_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView291"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView331"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/complementary_feeding_7_8month_textview_7"
+            android:padding="5dp"
+            android:text="Fruits :"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_7_8month_textview_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView331"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/complementary_feeding_7_8month_textview_8"
+            android:padding="5dp"
+            android:text="Vegetables :"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_7_8month_textview_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView333"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView334"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/complementary_feeding_7_8month_textview_9"
+            android:text="Cereal :"
+            android:padding="5dp"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_7_8month_textview_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView334"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#4b4b4b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView335"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/complementary_feeding_7_8month_textview_10"
+            android:padding="5dp"
+            android:text="Feeding Tips :"
+            android:textColor="#e90d0d"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/complementary_feeding_7_8month_textview_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView335"
+            android:padding="5dp"
+            android:text="New Text"
+            android:textColor="#e90d0d"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/complementary_feeding_7_8month_textview_11" />
+
+    </RelativeLayout>
+
+</ScrollView>
